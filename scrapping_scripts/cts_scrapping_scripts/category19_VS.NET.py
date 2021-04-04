@@ -12,6 +12,6 @@ courses_info = results_by_id.find_all('header', class_='entry-header')
 for course in courses_info:
     title = course.find('a').get_text()
     url = course.find('a')['href']
-    cursor.execute('INSERT INTO Szkolenia VALUES (?, ?)', (title, url))
+    cursor.execute('INSERT INTO courses VALUES (?, ?)', (title, url))
     conn.commit()
 conn.close()
