@@ -17,7 +17,7 @@
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Prioritet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
-| F1 | funkcjonalne  | Strona główna                | Statystyki                | Użytkownik po wejściu na stronę główną widzi statystyki dotyczące  | 1         |
-| F2 | funckjonalne  | Nawigacja                    | Przejście do wyszukiwarki | centered                                                           | 1         |
-| F3 | funkcjonalne  | Dostosowywanie wyników stron | WYszukiwanie              |                                                                    | 1         |
+| F1 | funkcjonalne  | Strona główna                | Statystyki                | Użytkownik po wejściu na stronę główną widzi statystyki dotyczące liczby dostępnych kursów o najpopularniejszej tematyce.  |     1     |
+| F2 | funckjonalne  | Nawigacja                    | Przejście do wyszukiwarki | centered                                                           |     1     |
+| F3 | funkcjonalne  | Dostosowywanie wyników stron | Wyszukiwanie              |                                                                    |     1     |
 
