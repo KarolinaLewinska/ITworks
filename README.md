@@ -2,7 +2,7 @@
 # rok akademicki 2020/2021
 ## ITWORKS - DOKUMENTACJA
 
-##Spis treści:
+## Spis treści:
 1. [Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
 2. [Prawa autorskie](#2.-prawa-autorskie)
 3. [Specyfikacja wymagań](#3.-specyfikacja-wymagań)
@@ -10,7 +10,7 @@
 5. [Architektura systemu / oprogramowania](#5.-architektura-systemu-/-oprogramowania)
 6. [Testy](#6.-testy)
 
-### 1.  Charakterystyka  oprogramowania
+## 1.  Charakterystyka  oprogramowania
 
 **Nazwa skrócona:** ITworks <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
@@ -21,7 +21,7 @@
 **Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
 **Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0
 
-### 3. Specyfikacja wymagań
+## 3. Specyfikacja wymagań
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
