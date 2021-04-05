@@ -3,12 +3,12 @@
 ## ITWORKS - DOKUMENTACJA
 
 ## Spis treści:
-1. [Charakterystyka oprogramowania](#1.-charakterystyka-oprogramowania)
-2. [Prawa autorskie](#2.-prawa-autorskie)
-3. [Specyfikacja wymagań](#3.-specyfikacja-wymagań)
-4. [Projekt (język UML)](#4.-projekt-(język-UML))
-5. [Architektura systemu / oprogramowania](#5.-architektura-systemu-/-oprogramowania)
-6. [Testy](#6.-testy)
+1. [Charakterystyka oprogramowania](#charakterystyka-oprogramowania)
+2. [Prawa autorskie](#prawa-autorskie)
+3. [Specyfikacja wymagań](#specyfikacja-wymagań)
+4. [Projekt (język UML)](#projekt-(język-UML))
+5. [Architektura systemu / oprogramowania](#architektura-systemu-/-oprogramowania)
+6. [Testy](#testy)
 
 ### 1. Charakterystyka oprogramowania
 
@@ -21,7 +21,7 @@
 **Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
 **Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0
 
-## 3. Specyfikacja wymagań
+### 3. Specyfikacja wymagań
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
