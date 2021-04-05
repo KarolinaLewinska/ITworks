@@ -6,9 +6,9 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/offers', methods=['GET', 'POST'] )
+@app.route('/browser', methods=['GET', 'POST'] )
 def result():       
-    return render_template('offers.xhtml')    
+    return render_template('browser.html')    
 
 @app.errorhandler(500)
 def internal_error(error):
