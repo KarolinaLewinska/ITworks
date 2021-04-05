@@ -6,8 +6,8 @@
 1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)
 2. [Prawa autorskie](#2-prawa-autorskie)
 3. [Specyfikacja wymagań](#3-specyfikacja-wymagań)
-4. [Projekt (język UML)](#4-projekt-(język-UML))
-5. [Architektura systemu / oprogramowania](#5-architektura-systemu-/-oprogramowania)
+4. [Projekt (język UML)](#4-projekt-język-uml)
+5. [Architektura systemu / oprogramowania](#5-architektura-systemu--oprogramowania)
 6. [Testy](#6-testy)
 
 ### 1. Charakterystyka oprogramowania
