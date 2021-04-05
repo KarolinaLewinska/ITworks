@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from requests import get
 import sqlite3
-from sys import argv
 
 URL = 'https://www.alx.pl/tech/android/'
 db = sqlite3.connect('courses.db')

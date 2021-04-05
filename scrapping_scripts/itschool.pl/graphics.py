@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from requests import get
 import sqlite3
-from sys import argv
 
 URL = 'https://itschool.pl/szkolenia/grafika/'
 db = sqlite3.connect('courses.db')
