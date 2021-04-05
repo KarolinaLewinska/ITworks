@@ -10,7 +10,7 @@
 5. [Architektura systemu / oprogramowania](#5.-architektura-systemu-/-oprogramowania)
 6. [Testy](#6.-testy)
 
-### 1.  Charakterystyka  oprogramowania
+### 1. Charakterystyka oprogramowania
 
 **Nazwa skrócona:** ITworks <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
