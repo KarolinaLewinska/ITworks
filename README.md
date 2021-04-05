@@ -1,15 +1,11 @@
-# INŻYNIERIA OPROGRAMOWANIA - rok akademicki 2020/2021
+# INŻYNIERIA OPROGRAMOWANIA
+# rok akademicki 2020/2021
 ## ITWORKS - DOKUMENTACJA
 
 ### 1.  Charakterystyka  oprogramowania.
-Nazwa skrócona:
-ITworks
- Nazwa pełna:
-      ITworks – search courses and develop your IT skills 
- Krótki opis:
-Portal pozwalający na wyszukiwanie interesujących ofert szkoleniowych w zakresie technologii informacyjnej.
-
-
+<br> Nazwa skrócona: ** ITworks ** 
+<br> Nazwa pełna: ITworks – search courses and develop your IT skills 
+<br> Krótki opis: Portal pozwalający na wyszukiwanie interesujących ofert szkoleniowych w zakresie technologii informacyjnej.
 
 
 
