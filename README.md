@@ -10,7 +10,7 @@
 5. [Architektura systemu / oprogramowania](#5.-architektura-systemu-/-oprogramowania)
 6. [Testy](#6.-testy)
 
-## 1.  Charakterystyka  oprogramowania
+### 1.  Charakterystyka  oprogramowania
 
 **Nazwa skrócona:** ITworks <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
@@ -62,7 +62,7 @@
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
 | --- | -------------- | ------------------------- | ------ |
 | 1 | Python | Backend aplikacji oraz scrapping ofert szkoleniowych | 3.9.2 (19.02.2021) |
-| 2 | SQL | Zapytania do bazy z ofertami | 2016 |
+| 2 | SQL | Zapytania do bazy z ofertami | (2016) |
 | 3 | FLask | Backend aplikacji | 1.1.2 (03.04.2020) |
 | 4 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
 | 5 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
@@ -70,14 +70,16 @@
 | 7 | Pandas | Stworzenie rankingu | 1.2.3 (02.03.2021) |
 | 8 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
 | 9 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
-| 10| CSS3 | Wygląd widoków | 07.06.2011 |
+| 10| CSS3 | Wygląd widoków | v. 3 (07.06.2011)|
 | 11| Bootstrap | Wygląd widoków | 4.4.1 (28.11.2019) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
 | --- | -------------- | ------------------------- | ------ |
-| 1 | Visual Studio Code | Środowisko IDE używane przy tworzeniu projektu. | |
+| 1 | Visual Studio Code | Środowisko IDE używane przy tworzeniu projektu. | 1.55.0 (30.03 2021) |
 | 2 | Google Chrome | Przeglądarka używana przy uruchamianiu projektu. | 90.0.4430.51 (31.03. 2021) |
 | 3 | Windows 10 | System operacyjny używany przy tworzeniu projektu. | 20H2 10.0.19042.870 (29.10.2020) |
+| 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórców. | - |
+| 5 | Git | System kontroli wersji tworzonej aplikacji. | 2.31.1 (26 marca 2021) |
 
 ### 6. Testy
