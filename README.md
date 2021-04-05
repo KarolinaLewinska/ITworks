@@ -18,7 +18,7 @@
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
 | F1 | funkcjonalne | Strona główna | Statystyki | Użytkownik po wejściu na stronę główną widzi statystyki dotyczące liczby dostępnych kursów o najpopularniejszej tematyce. | 1 |
-| F2 | funkcjonalne | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka kursów” w menu nawigacyjnym przejść na podstronę z wyszukiwarką. | 1 |
+| F2 | funkcjonalne | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka kursów” w menu nawigacyjnym przejść na podstronę z wyszukiwarką. | <center> 1 </center> |
 | F3 | funkcjonalne  | Dostosowywanie wyników stron | Wyszukiwanie | Użytkownik po wpisaniu w pole tekstowe interesującej go frazy otrzyma listę wyników z ofertami szkoleń domyślnie posortowanymi alfabetycznie. | 1 |
 | F4 | funkcjonalne  | Nawigacja | Przekierowanie | Użytkownik po wybraniu interesującego go szkolenia może przejść na stronę danej oferty poprzez kliknięcie w link. | 1 |
 | F5 | funkcjonalne  | Dostosowywanie wyników ofert | Brak wyników | Jeśli wpisana w wyszukiwarkę przez użytkownika fraza nie będzie pasować do żadnej z ofert to zostanie mu wyświetlony komunikat “Brak dostępnych kursów”. | 2 |
