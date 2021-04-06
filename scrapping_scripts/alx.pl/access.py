@@ -8,11 +8,13 @@ cursor = db.cursor()
 
 page = get (URL)
 bs = BeautifulSoup(page.content, 'html.parser')
-courses = bs.find_all('td', class_='lp-courseName')
+courses = bs.find_all('tr', class_='lp-courseRow')
 for course in courses:
     course_title = course.find('a').get_text()
     course_url = 'alx.pl' + course.find('a')['href']
-    cursor.execute ('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
-db.commit()
+    course_price = course.find('p', class_='lp-coursePriceNormal').get_text().strip()
+    print (course_title + " . " + course_price)
+#     cursor.execute ('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
+# db.commit()
 
 db.close()
