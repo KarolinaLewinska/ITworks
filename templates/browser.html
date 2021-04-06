@@ -29,6 +29,9 @@
             height: 1.5rem;
             /* Footer height */
         }
+        button{
+            background-color: white;
+        }
     </style>
 </head>
 
@@ -59,18 +62,33 @@
                     <div class="d-flex justify-content-center mt-3 mb-3">
                         <h2>Wyszukiwarka kursów</h2>
                     </div>
-                  <form class="col-12">
+                  <form class="col-12" method="POST">
                     <div class="form-group" style="font-size: larger">
                         <div class="d-flex justify-content-center mt-3 mb-3">
-                            <img src="{{url_for('static', filename='java2.png')}}" alt="java" width="50px" height="50px" style="margin-top: 3px;">
-                            <img src="{{url_for('static', filename='html5.png')}}" alt="html5" width="50px" height="50px" style="margin: 3px;">
-                            <img src="{{url_for('static', filename='csharp2.png')}}" alt="csharp" width="50px" height="50px" style="margin: 3px;">
-                            <img src="{{url_for('static', filename='javascript.png')}}" alt="javascript" width="50px" height="50px" style="margin: 3px;">
-                            <img src="{{url_for('static', filename='php.png')}}" alt="php" width="50px" height="50px" style="margin: 3px;">
-                            <img src="{{url_for('static', filename='python3.png')}}" alt="python" width="50px" height="50px" style="margin: 3px;">
-                            <img src="{{url_for('static', filename='sql.png')}}" alt="sql" width="50px" height="50px" style="margin: 3px;">
+                            <button type="submit" name="java">
+                                <img src="{{url_for('static', filename='java2.png')}}" alt="java" width="50px" height="50px" style="margin-top: 3px; margin-bottom: 3px;">
+                            </button>
+                            <button type="submit" name="html">
+                                <img src="{{url_for('static', filename='html5.png')}}" alt="html5" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            <button type="submit" name="csharp">
+                                <img src="{{url_for('static', filename='csharp2.png')}}" alt="csharp" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            <button type="submit" name="javascript">
+                                <img src="{{url_for('static', filename='javascript.png')}}" alt="javascript" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            <button type="submit" name="php">
+                                <img src="{{url_for('static', filename='php.png')}}" alt="php" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            <button type="submit" name="python">
+                                <img src="{{url_for('static', filename='python3.png')}}" alt="python" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            <button type="submit" name="sql">
+                                <img src="{{url_for('static', filename='sql.png')}}" alt="sql" width="50px" height="50px" style="margin: 3px;">
+                            </button>
+                            
                         </div>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Wpisz słowo odnośnie interesujących Cię treści">
+                        <input type="text" class="form-control" name="search" id="formGroupExampleInput" placeholder="Wpisz słowo odnośnie interesujących Cię treści">
                     </div>
                     <div class="d-flex justify-content-center">
                         <button type="submit" class="btn" style="background-color: darkgreen; color: white; font-size: larger;">Wyszukaj</button>
@@ -80,6 +98,18 @@
               </div>
         <div class="container-fluid p-3 my-3">
          <!-- odpowiedź! -->
+         <table>
+            <thead>
+               <td>Nazwa kursu</td>
+               <td>Adres URL kursu</td>
+            </thead>
+            {% for row in rows %}
+               <tr>
+                  <td>{{row["course_title"]}}</td>
+                  <td>{{row["course_url"]}}</td>
+               </tr>
+            {% endfor %}
+         </table>
         </div>
         <footer class="bg-light text-center text-lg-start" style="left: 0; bottom: 0; width: 100%;" id="footer">
             <!-- Copyright -->
@@ -89,7 +119,6 @@
             <!-- Copyright -->
         </footer>
     </div>
-
 </body>
 
 </html>
