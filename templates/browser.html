@@ -54,19 +54,32 @@
             </div>
         </nav>
         <div id="content-wrap">
-            <div class="container-fluid p-3 my-3">
-                <div class="d-flex justify-content-center">
-                Wyszukiwarka szkoleń<br />
-                Wpisz nazwę/kategorię/język programowania aby wyszukać porządane oferty
-                <form action="http://localhost:5000/browser" name="find" method="post">
-                    <input class="form-control" type="text" />
-                    <br />
-                    <div class="pt-4">
-                        <button type="submit" class="btn btn-dark btn-block">Wyszukaj</button>
+            <div class="container h-100">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center mt-3 mb-3">
+                        <h2>Wyszukiwarka kursów</h2>
                     </div>
-                </form>
+                  <form class="col-12">
+                    <div class="form-group" style="font-size: larger">
+                        <div class="d-flex justify-content-center mt-3 mb-3">
+                            <img src="{{url_for('static', filename='java2.png')}}" alt="java" width="50px" height="50px" style="margin-top: 3px;">
+                            <img src="{{url_for('static', filename='html5.png')}}" alt="html5" width="50px" height="50px" style="margin: 3px;">
+                            <img src="{{url_for('static', filename='csharp2.png')}}" alt="csharp" width="50px" height="50px" style="margin: 3px;">
+                            <img src="{{url_for('static', filename='javascript.png')}}" alt="javascript" width="50px" height="50px" style="margin: 3px;">
+                            <img src="{{url_for('static', filename='php.png')}}" alt="php" width="50px" height="50px" style="margin: 3px;">
+                            <img src="{{url_for('static', filename='python3.png')}}" alt="python" width="50px" height="50px" style="margin: 3px;">
+                            <img src="{{url_for('static', filename='sql.png')}}" alt="sql" width="50px" height="50px" style="margin: 3px;">
+                        </div>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Wpisz słowo odnośnie interesujących Cię treści">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn" style="background-color: darkgreen; color: white; font-size: larger;">Wyszukaj</button>
+                    </div>                   
+                  </form>   
                 </div>
-            </div>
+              </div>
+        <div class="container-fluid p-3 my-3">
+         <!-- odpowiedź! -->
         </div>
         <footer class="bg-light text-center text-lg-start" style="left: 0; bottom: 0; width: 100%;" id="footer">
             <!-- Copyright -->

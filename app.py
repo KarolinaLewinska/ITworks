@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+import sqlite3
 
 app = Flask(__name__)
 
@@ -7,10 +8,11 @@ def home():
     return render_template('index.html')
 
 @app.route('/browser', methods=['GET', 'POST'] )
-def result():       
-    return render_template('browser.html')    
+def browser():
+        # miejsce na kod do bazy
+    return render_template('browser.html')  
 
-@app.errorhandler(500)
+@app.errorhandler(500) 
 def internal_error(error):
     return render_template('error.html')    
 
