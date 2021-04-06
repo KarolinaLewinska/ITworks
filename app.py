@@ -34,6 +34,22 @@ def browser():
             conn.commit()
             rows = cur.fetchall()
             return render_template('browser.html', rows=rows)
+        elif 'c' in request.form:
+            conn = sqlite3.connect('courses.db')
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * from courses WHERE course_title LIKE '% c %'") 
+            conn.commit()
+            rows = cur.fetchall()
+            return render_template('browser.html', rows=rows)
+        elif 'cplusplus' in request.form:
+            conn = sqlite3.connect('courses.db')
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * from courses WHERE course_title LIKE '%c++%'") 
+            conn.commit()
+            rows = cur.fetchall()
+            return render_template('browser.html', rows=rows)
         elif 'javascript' in request.form:
             conn = sqlite3.connect('courses.db')
             conn.row_factory = sqlite3.Row
