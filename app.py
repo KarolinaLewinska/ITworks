@@ -71,7 +71,7 @@ def browser():
             conn.row_factory = sqlite3.Row
             cur = conn.cursor()
             search = request.form['search']
-            cur.execute("SELECT * from courses")
+            cur.execute("SELECT * from courses where course_title LIKE '%"+ search +"%'")
             conn.commit()
             rows = cur.fetchall(); 
             return render_template('browser.html', rows=rows)
