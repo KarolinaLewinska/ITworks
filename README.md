@@ -63,7 +63,7 @@
 | --- | -------------- | ------------------------- | ------ |
 | 1 | Python | Backend aplikacji oraz scrapping ofert szkoleniowych | 3.9.2 (19.02.2021) |
 | 2 | SQL | Zapytania do bazy z ofertami | (2016) |
-| 3 | FLask | Backend aplikacji | 1.1.2 (03.04.2020) |
+| 3 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
 | 4 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
 | 5 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
 | 6 | Requests | Biblioteka do uproszczenia żądań | 2.25.0 (11.11.2020) |
