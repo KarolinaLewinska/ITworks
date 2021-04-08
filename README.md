@@ -33,9 +33,8 @@
 | F6 | funkcjonalne | Nawigacja | Przejście do  rankingu | Użytkownik ma możliwość przejścia do podstrony z rankingiem poprzez kliknięcie przycisku “Ranking” w menu nawigacyjnym. | 2 |
 | F7 | funkcjonalne | Dostosowywanie wyników ofert | Wyszukiwanie po kategorii | Użytkownik może wyszukać szkolenia poprzez wciśnięcie jednego z przycisków kategorii (Java, JavaScript, HTML5, PHP, Python, C++, C#, SQL). Po wciśnięciu przycisku wyświetlana jest lista kursów z wybranej kategorii. | 3 |
 | F8 | funkcjonalne | Dostosowywanie wyników ofert | Paging | Użytkownik może przejść do kolejnej strony z wynikami jeśli szkoleń będzie więcej niż 20 oraz następnie powrócić do poprzedniej strony klikając przyciski na dole  strony. | 3 |
-| F9 | funkcjonalne | Dostosowywanie wyników ofert | Sortowanie | Użytkownik może sortować interesujące go materiały szkoleniowe alfabetycznie rosnąco i malejąco według nazwy kursu. | 3 |
-| F10 | funkcjonalne | Dostosowywanie wyników ofert | Kursy w rankingu | Użytkownik po wyświetleniu rankingu może od razu przejść do listy kursów dotyczących kategorii rankingowej po kliknięciu jej nazwy. | 3 |
-| F11 | funkcjonalne  | Obsługa błędów | Dedykowana strona błędu | Użytkownik po wpisaniu błędnego/nieistniejącego adresu URL widzi dedykowaną stronę z kodem błędu. | 3 |
+| F9 | funkcjonalne | Dostosowywanie wyników ofert | Kursy w rankingu | Użytkownik po wyświetleniu rankingu może od razu przejść do listy kursów dotyczących kategorii rankingowej po kliknięciu jej nazwy. | 3 |
+| F10 | funkcjonalne  | Obsługa błędów | Dedykowana strona błędu | Użytkownik po wpisaniu błędnego/nieistniejącego adresu URL widzi dedykowaną stronę z kodem błędu. | 3 |
 | NF1 | niefunkcjonalne | Projektowe | Rodzaj oprogramowania | Aplikacja jest oprogramowaniem wolnym. | 1 |
 | NF2 | niefunkcjonalne | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową zrealizowaną w architekturze klient-serwer. | 1 |
 | NF3 | niefunkcjonalne | Projektowe | Używana technologia | Wykorzystywana w projekcie technologia wolnodostępna. | 1 |
