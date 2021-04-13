@@ -78,7 +78,7 @@
 | 1 | Visual Studio Code | Środowisko IDE używane przy tworzeniu projektu | 1.55.0 (30.03 2021) |
 | 2 | Google Chrome | Przeglądarka używana przy uruchamianiu projektu | 90.0.4430.51 (31.03. 2021) |
 | 3 | Windows 10 | System operacyjny używany przy tworzeniu projektu | 20H2 10.0.19042.870 (29.10.2020) |
-| 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórców | - |
+| 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórcami | - |
 | 5 | Git | System kontroli wersji tworzonej aplikacji | 2.31.1 (26 marca 2021) |
 
 ### 6. Testy
