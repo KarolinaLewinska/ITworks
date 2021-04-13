@@ -34,26 +34,25 @@
 | F7 | funkcjonalne | Dostosowywanie wyników ofert | Wyszukiwanie po kategorii | Użytkownik może wyszukać szkolenia poprzez wciśnięcie jednego z przycisków kategorii (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL). Po wciśnięciu przycisku wyświetlana jest lista kursów z wybranej kategorii. | 3 |
 | F8 | funkcjonalne | Dostosowywanie wyników ofert | Paging | Użytkownik może przejść do kolejnej strony z wynikami jeśli szkoleń będzie więcej niż 20 oraz następnie powrócić do poprzedniej strony klikając przyciski na dole  strony. | 3 |
 | F9 | funkcjonalne  | Obsługa błędów | Dedykowana strona błędu | Użytkownik po wpisaniu błędnego/nieistniejącego adresu URL widzi dedykowaną stronę z kodem błędu. | 3 |
-| NF1 | niefunkcjonalne | Projektowe | Rodzaj oprogramowania | Aplikacja jest oprogramowaniem wolnym. | 1 |
-| NF2 | niefunkcjonalne | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową. | 1 |
-| NF3 | niefunkcjonalne | Projektowe | Używana technologia | W projekcie jest wykorzystywana technologia wolnodostępna. | 1 |
-| NF4 | niefunkcjonalne | Projektowe | Obsługiwane przeglądarki | Aplikacja działa w przeglądarkach takich jak Google Chrome, Internet Explorer, Safari, Opera, Mozilla Firefox.| 1 |
-| NF5 | niefunkcjonalne | Projektowe | Dostęp do internetu | Aplikacja działa tylko i wyłącznie jeśli użytkownik posiada dostęp do internetu. | 1 |
-| NF6 | niefunkcjonalne | Projektowe | Środowisko pracy aplikacji | Aplikacja działa w systemie operacyjnym Windows, macOS, Linux. | 1 |
-| NF7 | niefunkcjonalne | Bezpieczeństwo | Strony z ofertami | Oferty znajdujące się w naszej bazie pochodzą ze sprawdzonych stron. | 2 |
-| NF8 | niefunkcjonalne | Bezpieczeństwo | Testowalność aplikacji | Środowisko testowe powinno być stworzone w taki sposób aby funkcjonalność aplikacji była możliwa do przetestowania. | 1 |
-| NF9 | niefunkcjonalne | Bezpieczeństwo | Backup | Aplikacja powinna posiadać kopie zapasowe z systemu kontroli wersji. | 1 |
-| NF10 | niefunkcjonalne | Wydajność | Czas załadowania listy wyników | Użytkownikowi powinna ukazać się lista z wynikami w czasie nie większym niż 3 sekundy. | 2 |
-| NF11 | niefunkcjonalne | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
-| NF12 | niefunkcjonalne | Wydajność | Czas reakcji| Czas rekacji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
-| NF13 | niefunkcjonalne | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
-| NF14 | niefunkcjonalne | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
-| NF15 | niefunkcjonalne | UI | Język aplikacji| Strona jest stworzona w języku polskim. | 1 |
-| NF16 | niefunkcjonalne | UI | Nawigacja aplikacji | Wszystkie podstrony powinny być łatwe w odnalezieniu przez użytkownika. | 1 |
-| NF17 | niefunkcjonalne | UI | Sposób wyświetlania listy oferty | Lista z ofertami kursów powinna być wyświetlona w sposób przejrzysty i zrozumiały dla użytkownika. | 1 |
-| NF18 | niefunkcjonalne | UI | Linki przekierowujące do oferty | Linki przekierowujące do ofert szkoleniowych powinny jasno wskazywać możliwość przejścia na stronę z ofertą. Przekierowanie na stronę z kursem wymaga tylko jednego kliknięcia. | 1 |
-| NF19 | niefunkcjonalne | UI | Wygląd interfejsów | Interfejsy powinny być spójne pod względem estetycznym. | 1 |
-| NF20 | niefunkcjonalne | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
+| NF1 | niefunkcjonalne | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową. | 1 |
+| NF2 | niefunkcjonalne | Projektowe | Używana technologia | W projekcie jest wykorzystywana technologia wolnodostępna. | 1 |
+| NF3 | niefunkcjonalne | Projektowe | Obsługiwane przeglądarki | Aplikacja działa w przeglądarkach takich jak Google Chrome, Internet Explorer, Safari, Opera, Mozilla Firefox.| 1 |
+| NF4 | niefunkcjonalne | Projektowe | Dostęp do internetu | Aplikacja działa tylko i wyłącznie jeśli użytkownik posiada dostęp do internetu. | 1 |
+| NF5 | niefunkcjonalne | Projektowe | Środowisko pracy aplikacji | Aplikacja działa w systemie operacyjnym Windows, macOS, Linux. | 1 |
+| NF6 | niefunkcjonalne | Bezpieczeństwo | Strony z ofertami | Oferty znajdujące się w naszej bazie pochodzą ze sprawdzonych stron. | 2 |
+| NF7 | niefunkcjonalne | Bezpieczeństwo | Testowalność aplikacji | Środowisko testowe powinno być stworzone w taki sposób aby funkcjonalność aplikacji była możliwa do przetestowania. | 1 |
+| NF8 | niefunkcjonalne | Bezpieczeństwo | Backup | Aplikacja powinna posiadać kopie zapasowe z systemu kontroli wersji. | 1 |
+| NF9 | niefunkcjonalne | Wydajność | Czas załadowania listy wyników | Użytkownikowi powinna ukazać się lista z wynikami w czasie nie większym niż 3 sekundy. | 2 |
+| NF10 | niefunkcjonalne | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
+| NF11 | niefunkcjonalne | Wydajność | Czas reakcji| Czas rekacji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
+| NF12 | niefunkcjonalne | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
+| NF13 | niefunkcjonalne | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
+| NF14 | niefunkcjonalne | UI | Język aplikacji| Strona jest stworzona w języku polskim. | 1 |
+| NF15 | niefunkcjonalne | UI | Nawigacja aplikacji | Wszystkie podstrony powinny być łatwe w odnalezieniu przez użytkownika. | 1 |
+| NF16 | niefunkcjonalne | UI | Sposób wyświetlania listy oferty | Lista z ofertami kursów powinna być wyświetlona w sposób przejrzysty i zrozumiały dla użytkownika. | 1 |
+| NF17 | niefunkcjonalne | UI | Linki przekierowujące do oferty | Linki przekierowujące do ofert szkoleniowych powinny jasno wskazywać możliwość przejścia na stronę z ofertą. Przekierowanie na stronę z kursem wymaga tylko jednego kliknięcia. | 1 |
+| NF18 | niefunkcjonalne | UI | Wygląd interfejsów | Interfejsy powinny być spójne pod względem estetycznym. | 1 |
+| NF19 | niefunkcjonalne | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
 
 ### 4. Projekt (język UML)
 
@@ -71,7 +70,7 @@
 | 7 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
 | 8 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
 | 9 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
-| 10 | Bootstrap | Wygląd widoków | 4.4.1 (28.11.2019) |
+| 10 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
