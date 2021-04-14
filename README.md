@@ -32,7 +32,7 @@
 | F5 | funkcjonalne | Dostosowywanie wyników ofert | Brak wyników | Jeśli wpisana w wyszukiwarkę przez użytkownika fraza nie będzie pasować do żadnej z ofert to zostanie mu wyświetlony komunikat “Brak dostępnych kursów”. | 2 |
 | F6 | funkcjonalne | Nawigacja | Przejście do  statystyk | Użytkownik ma możliwość powrotu do strony ze statystykami poprzez kliknięcie przycisku “Rankingi” w menu nawigacyjnym. | 2 |
 | F7 | funkcjonalne | Dostosowywanie wyników ofert | Wyszukiwanie po kategorii | Użytkownik może wyszukać szkolenia poprzez wciśnięcie jednego z przycisków kategorii (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL). Po wciśnięciu przycisku wyświetlana jest lista kursów z wybranej kategorii. | 3 |
-| F8 | funkcjonalne | Dostosowywanie wyników ofert | Paging | Użytkownik może przejść do kolejnej strony z wynikami jeśli szkoleń będzie więcej niż 20 oraz następnie powrócić do poprzedniej strony klikając przyciski na dole  strony. | 3 |
+| F8 | funkcjonalne | Dostosowywanie wyników ofert | Paging | Użytkownik może przejść do kolejnej strony z wynikami jeśli szkoleń będzie więcej niż 10 oraz następnie powrócić do poprzedniej strony klikając przyciski na dole  strony. | 3 |
 | F9 | funkcjonalne  | Obsługa błędów | Dedykowana strona błędu | Użytkownik po wpisaniu błędnego/nieistniejącego adresu URL widzi dedykowaną stronę z kodem błędu. | 3 |
 | NF1 | niefunkcjonalne | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową. | 1 |
 | NF2 | niefunkcjonalne | Projektowe | Używana technologia | W projekcie jest wykorzystywana technologia wolnodostępna. | 1 |
