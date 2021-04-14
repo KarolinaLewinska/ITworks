@@ -71,6 +71,7 @@
 | 8 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
 | 9 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
 | 10 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
+| 11 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
