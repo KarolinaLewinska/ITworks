@@ -32,6 +32,22 @@
         button{
             background-color: white;
         }
+        table, td{
+            border: 2px solid darkgreen;
+            padding: 10px;
+        }
+        a:link.courseLink, a:visited.courseLink {
+        background-color: darkgray;
+        color: white;
+        font-weight: bold;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+        a:hover.courseLink, a:active.courseLink {
+        background-color: darkgreen;
+        }
     </style>
 </head>
 
@@ -105,15 +121,15 @@
               </div>
         <div class="container-fluid p-3 my-3">
          <!-- odpowiedź! -->
-         <table>
-            <thead>
-               <td>Nazwa kursu</td>
-               <td>Adres URL kursu</td>
-            </thead>
+         <table style="margin-left: auto; margin-right: auto;">
+            <!-- <thead class="center">
+               <th>Nazwa kursu</th>
+               <th>Adres URL kursu</th>
+            </thead> -->
             {% for row in rows %}
                <tr>
                   <td>{{row["course_title"]}}</td>
-                  <td>{{row["course_url"]}}</td>
+                  <td><a href='{{row["course_url"]}}' class="courseLink" target="_blank">Przejdź do kursu!</a></td>
                </tr>
             {% endfor %}
          </table>
