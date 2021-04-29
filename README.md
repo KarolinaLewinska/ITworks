@@ -17,15 +17,16 @@
 **Krótki opis:** Portal pozwalający na wyszukiwanie interesujących ofert szkoleniowych w zakresie technologii informacyjnej.
 
 #### Projekt aplikacji:
+
+**Rankingi**
+![Rankings](https://github.com/justynagapys/ITworks/blob/main/mockup/Rankingi.png)
+
 **Wyszukiwarka**
 ![Browser](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka.png)
 ![Browser with search](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka%20-%20Java.png)
 
 **Brak kursów**
 ![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
-
-**Rankingi**
-![Rankings](https://github.com/justynagapys/ITworks/blob/main/mockup/Rankingi.png)
 
 **Strona błędu**
 ![ErrorPage](https://github.com/justynagapys/ITworks/blob/main/mockup/B%C5%82%C4%85d.png)
