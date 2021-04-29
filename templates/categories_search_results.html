@@ -45,7 +45,6 @@
         }
     </style>
 </head>
-
 <body>
     <div id="page-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -73,69 +72,25 @@
                     <div class="d-flex justify-content-center mt-3 mb-3">
                         <h2>Wyszukiwarka kursów</h2>
                     </div>
-                  <form name="searchForm"class="col-12" method="POST">
-                    <div class="form-group" style="font-size: larger">
-                        <div class="d-flex justify-content-center mt-3 mb-3">
-                            <button type="submit" name="java">
-                                <img src="{{url_for('static', filename='java2.png')}}" alt="java" width="50px" 
-                                    height="50px" style="margin-top: 3px; margin-bottom: 3px;">
-                            </button>
-                            <button type="submit" name="html">
-                                <img src="{{url_for('static', filename='html5.png')}}" alt="html5" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="csharp">
-                                <img src="{{url_for('static', filename='csharp2.png')}}" alt="csharp" width="50px"
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="c">
-                                <img src="{{url_for('static', filename='c5.png')}}" alt="c" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="cplusplus">
-                                <img src="{{url_for('static', filename='cplusplus.png')}}" alt="c++" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="javascript">
-                                <img src="{{url_for('static', filename='javascript.png')}}" alt="javascript" 
-                                    width="50px" height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="php">
-                                <img src="{{url_for('static', filename='php.png')}}" alt="php" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="python">
-                                <img src="{{url_for('static', filename='python3.png')}}" alt="python" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                            <button type="submit" name="sql">
-                                <img src="{{url_for('static', filename='sql.png')}}" alt="sql" width="50px" 
-                                    height="50px" style="margin: 3px;">
-                            </button>
-                        </div>
-                        <input type="text" class="form-control" name="search" 
-                            id="formGroupExampleInput" placeholder="Czego szukasz?">
-                    </div>
-                    <div class="d-flex justify-content-center">
-                        <button type="submit" name="searchButton" class="btn" 
-                            style="background-color: darkgreen; color: white; font-size: larger;">WYSZUKAJ</button>
-                    </div>                   
-                  </form>   
                 </div>
               </div>
+              {{ pagination.links }}
         <div class="container-fluid p-3 my-3">
             <table style="margin-left: auto; margin-right: auto;">
                 {% for message in get_flashed_messages() %}
                     <p>{{ message }}</p>
                 {% endfor %}
+
                 {% for row in rows %}
                 <tr>
+                    <td>{{ loop.index + (page - 1) * per_page }}</td>
                     <td>{{row["course_title"]}}</td>
                     <td><a href='{{row["course_url"]}}' class="courseLink" target="_blank">Przejdź do kursu!</a></td>
                 </tr>
                 {% endfor %}
             </table>
         </div>
+        {{ pagination.links }}
         <footer class="bg-light text-center text-lg-start" style="left: 0; bottom: 0; width: 100%;" id="footer">
             <div class="text-center p-3 bg-light" style=" font-size: larger;">
                 © 2021 Copyright: <img src="{{url_for('static', filename='logo2.png')}}" alt="">
