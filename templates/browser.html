@@ -77,19 +77,19 @@
                     <div class="form-group" style="font-size: larger">
                         <div class="d-flex justify-content-center mt-3 mb-3">
                             <button type="submit" name="java">
-                                <img src="{{url_for('static', filename='java2.png')}}" alt="java" width="50px" 
+                                <img src="{{url_for('static', filename='java.png')}}" alt="java" width="50px" 
                                     height="50px" style="margin-top: 3px; margin-bottom: 3px;">
                             </button>
                             <button type="submit" name="html">
-                                <img src="{{url_for('static', filename='html5.png')}}" alt="html5" width="50px" 
+                                <img src="{{url_for('static', filename='html.png')}}" alt="html5" width="50px" 
                                     height="50px" style="margin: 3px;">
                             </button>
                             <button type="submit" name="csharp">
-                                <img src="{{url_for('static', filename='csharp2.png')}}" alt="csharp" width="50px"
+                                <img src="{{url_for('static', filename='csharp.png')}}" alt="csharp" width="50px"
                                     height="50px" style="margin: 3px;">
                             </button>
                             <button type="submit" name="c">
-                                <img src="{{url_for('static', filename='c5.png')}}" alt="c" width="50px" 
+                                <img src="{{url_for('static', filename='c.png')}}" alt="c" width="50px" 
                                     height="50px" style="margin: 3px;">
                             </button>
                             <button type="submit" name="cplusplus">
@@ -105,7 +105,7 @@
                                     height="50px" style="margin: 3px;">
                             </button>
                             <button type="submit" name="python">
-                                <img src="{{url_for('static', filename='python3.png')}}" alt="python" width="50px" 
+                                <img src="{{url_for('static', filename='python.png')}}" alt="python" width="50px" 
                                     height="50px" style="margin: 3px;">
                             </button>
                             <button type="submit" name="sql">
@@ -124,10 +124,10 @@
                 </div>
               </div>
         <div class="container-fluid p-3 my-3">
+            {% for message in get_flashed_messages() %}
+                <div class="d-flex justify-content-center" style="font-size: larger; font-weight: bold; padding: 20px;">{{ message }}</div>
+            {% endfor %}
             <table style="margin-left: auto; margin-right: auto;">
-                {% for message in get_flashed_messages() %}
-                    <p>{{ message }}</p>
-                {% endfor %}
                 {% for row in rows %}
                 <tr>
                     <td>{{row["course_title"]}}</td>

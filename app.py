@@ -44,10 +44,10 @@ def browser():
                 rows = cur.fetchall(); 
                 rows_number = len(rows)
                 if rows:
-                    flash("Liczba dostępnych kursów:")
-                    flash(rows_number)
+                    flash("Liczba dostępnych kursów: " + str(len(rows)))
                 if not rows:
-                    flash("Brak kursów w bazie! Proszę wpisać w wyszukiwarkę inne słowo-klucz!")
+                    flash("Brak kursów w bazie! Wpisz w wyszukiwarkę inne zagadnienie.")
+
                 conn.close()
                 return render_template('browser.html', rows=rows)
             except OperationalError:
@@ -67,8 +67,7 @@ def search_java():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -93,8 +92,7 @@ def search_html():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -119,8 +117,7 @@ def search_csharp():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -139,14 +136,13 @@ def search_c():
         conn = sqlite3.connect('courses.db')
         conn.row_factory = sqlite3.Row
         cur = conn.cursor()
-        query = "SELECT * from courses WHERE course_title LIKE '% c %' ORDER BY course_title"
+        query = "SELECT * from courses WHERE course_title LIKE '% c %' OR course_title LIKE '% c.%' ORDER BY course_title"
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -171,8 +167,7 @@ def search_cplusplus():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -197,8 +192,7 @@ def search_javascript():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -223,8 +217,7 @@ def search_php():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -249,8 +242,7 @@ def search_python():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
@@ -275,8 +267,7 @@ def search_sql():
         rows = cur.fetchall()
         rows_number = len(rows)
         if rows:
-            flash("Liczba dostępnych kursów:")
-            flash(rows_number)
+            flash("Liczba dostępnych kursów: " + str(len(rows)))
         page, per_page, offset = get_page_args(page_parameter='page', per_page_parameter='per_page')
         total = len(rows)
         pagination_courses = get_courses(offset=offset, per_page=per_page)
