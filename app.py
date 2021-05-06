@@ -279,8 +279,16 @@ def search_sql():
         flash("Wystąpił błąd podczas próby połączenia się z bazą")
 
 @app.errorhandler(500) 
-def internal_error(error):
-    return render_template('error.html')    
+def internal_error(error500):
+    return render_template('error500.html')  
+
+@app.errorhandler(400) 
+def internal_error(error400):
+    return render_template('error400.html')  
+
+@app.errorhandler(404) 
+def internal_error(error404):
+    return render_template('error404.html')    
 
 if __name__ == "__main__":
     app.run()
