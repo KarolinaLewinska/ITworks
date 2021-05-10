@@ -32,9 +32,9 @@ def draw_plot(stats, y_label, title, file_title):
 
 languages = ["Python", "C#", "C++", "Java", "VisualBasic", "JavaScript", "PHP", "SQL"]
 languages_stats = get_data(languages)
-draw_plot(languages_stats, 'liczba kursów', 'Najpopularniejsze języki programowania', 'languages.png')
+draw_plot(languages_stats, 'liczba ofert', 'Najpopularniejsze jezyki programowania', 'coursesLanguages.png')
 
 
 topics = ['programowanie', 'sieci', 'machine learning', 'big data', 'Windows', 'Linux', 'Mac', 'test', 'web', 'grafik', 'zarządzanie', 'Microsoft', 'Apple', 'bezpieczeństwo', 'bazy']
 topics_stats = get_data(topics)
-draw_plot(topics_stats, 'liczba kursów', 'Najpopularniejsza tematyka kursów', 'topics.png')
+draw_plot(topics_stats, 'liczba ofert', 'Najpopularniejsza tematyka kursu', 'coursesTopics.png')
