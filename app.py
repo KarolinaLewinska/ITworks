@@ -38,7 +38,7 @@ def browser():
                 conn.row_factory = sqlite3.Row
                 cur = conn.cursor()
                 search = request.form['search']
-                query = "SELECT * from courses where course_title LIKE '% "+ search +" %' OR course_title LIKE '% "+ search +".%' OR course_title LIKE '% "+ search +",%' OR course_title LIKE '% "+ search +":%' ORDER BY course_title"
+                query = "SELECT * from courses where course_title LIKE '% "+ search +" %' OR course_title LIKE '"+ search +" %' OR course_title LIKE '% "+ search +".%' OR course_title LIKE '% "+ search +",%' OR course_title LIKE '% "+ search +":%' OR course_title LIKE '% "+ search +"-%' ORDER BY course_title"
                 cur.execute(query)
                 conn.commit()
                 rows = cur.fetchall(); 
