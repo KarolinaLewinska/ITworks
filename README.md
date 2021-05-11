@@ -76,6 +76,8 @@
 
 ### 5. Architektura systemu / oprogramowania
 
+**Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
+
 #### Architektura rozwoju:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
 | --- | -------------- | ------------------------- | ------ |
