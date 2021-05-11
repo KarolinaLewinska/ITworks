@@ -67,6 +67,7 @@
 | NF14 | niefunkcjonalne | Wydajność | Czas reakcji| Czas reakcji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
 | NF15 | niefunkcjonalne | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
 | NF17 | niefunkcjonalne | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
+| NF17 | niefunkcjonalne | Ergonomia | Aktualizacja bazy z kursami | Aplikacja będzie posiadała jeden główny skrypt, który po uruchomieniu będzie usuwał stare dane o kursach i dostarczał nowe. | 2 |
 | NF28 | niefunkcjonalne | UI | Logo aplikacji | Logo aplikacji umieszczone jest w menu nawigacyjnym w lewym górnym rogu oraz w stopce na środku. | 2 |
 | NF19 | niefunkcjonalne | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
 | NF20 | niefunkcjonalne | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
