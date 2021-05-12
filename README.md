@@ -47,7 +47,7 @@
 | F5 | funkcjonalne | Nawigacja | Przejście do  statystyk | Użytkownik ma możliwość powrotu do strony ze statystykami poprzez kliknięcie przycisku “Rankingi” w menu nawigacyjnym. | 1 |
 | F6 | funkcjonalne | Dostosowywanie wyników ofert | Brak wyników | Jeśli wpisana w wyszukiwarkę przez użytkownika fraza nie będzie pasować do żadnej z ofert to zostanie mu wyświetlony komunikat “Brak dostępnych kursów o interesującej Cię tematyce”. | 2 |
 | F7 | funkcjonalne | Dostosowywanie wyników ofert | Wyszukiwanie po kategorii | Użytkownik może wyszukać szkolenia poprzez wciśnięcie jednego z przycisków kategorii (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL). Po wciśnięciu przycisku wyświetlana jest lista kursów z wybranej kategorii. | 2 |
-| F8 | funkcjonalne | Dostosowywanie wyników ofert | Paging | Użytkownik może przejść do kolejnej strony z wynikami jeśli szkoleń będzie więcej niż 10 oraz następnie powrócić do poprzedniej strony klikając przyciski na dole  strony. | 3 |
+| F8 | funkcjonalne | Dostosowywanie wyników ofert | Kontakt | Użytkownikowi po wciśnięciu przycisku "Napisz" zostanie wyświetlone okno do napisania wiadomości mailowej, dzięki czemu może skontaktować się z twórcami strony. | 3 |
 | F9 | funkcjonalne  | Obsługa błędów | Dedykowane strony błędu | Użytkownik po wpisaniu błędnego/nieistniejącego adresu URL widzi dedykowaną stroną z kodem błędu (500, 404, 400). | 3 |
 | F10 | funkcjonalne  | Dostosowywanie wyników ofert | Wyświetlenie liczby dostępnych ofert | Użytkownik po wprowadzeniu interesującej go frazy otrzyma wypisaną liczbę ofert, dla których ta fraza obowiązuje. | 3 |
 | NF1 | niefunkcjonalne | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową. | 1 |
@@ -92,6 +92,7 @@
 | 9 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
 | 10 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
 | 11 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
+| 12 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
