@@ -23,7 +23,7 @@
 
 **Wyszukiwarka**
 ![Browser](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka.png)
-![Browser with search](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka%20-%20Java.png)
+![Browser with search](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka%20%2B%20Java.png)
 
 **Brak kursów**
 ![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
