@@ -88,17 +88,16 @@
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
 | --- | -------------- | ------------------------- | ------ |
 | 1 | Python | Backend aplikacji oraz scrapping ofert szkoleniowych | 3.9.2 (19.02.2021) |
-| 2 | SQL | Zapytania do bazy z ofertami | (2016) |
-| 3 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
-| 4 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
-| 5 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
-| 6 | Requests | Uproszczenie żądań | 2.25.0 (11.11.2020) |
-| 7 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
-| 8 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
-| 9 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
-| 10 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
-| 11 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
-| 12 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
+| 2 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
+| 3 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
+| 4 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
+| 5 | Requests | Uproszczenie żądań | 2.25.0 (11.11.2020) |
+| 6 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
+| 7 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
+| 8 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
+| 9 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
+| 10 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
+| 11 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
