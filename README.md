@@ -77,6 +77,9 @@
 **Diagram przypadków użycia**
 ![UseCaseDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.PNG)
 
+**Diagram wdrożenia**
+![DeploymentDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20wdro%C5%BCenia.png)
+
 ### 5. Architektura systemu / oprogramowania
 
 **Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
