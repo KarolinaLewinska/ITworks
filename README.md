@@ -40,11 +40,11 @@
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
-| F1 | funkcjonalne | Strona główna | Statystyki | Użytkownik po wejściu na stronę główną widzi statystyki dotyczące liczby dostępnych kursów o najpopularniejszej tematyce oraz odnoszące się do najpopularniejszych języków programowania. | 1 |
+| F1 | funkcjonalne | Strona główna | Rankingi | Użytkownik po wejściu na stronę główną widzi rankingi dotyczące liczby dostępnych kursów o najpopularniejszej tematyce oraz odnoszące się do najpopularniejszych języków programowania. | 1 |
 | F2 | funkcjonalne | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka” w menu nawigacyjnym przejść na podstronę z wyszukiwarką kursów. | 1 |
 | F3 | funkcjonalne | Dostosowywanie wyników stron | Wyszukiwanie | Użytkownik po wpisaniu w pole tekstowe interesującej go frazy otrzyma listę wyników z ofertami szkoleń domyślnie posortowanymi alfabetycznie. | 1 |
 | F4 | funkcjonalne | Nawigacja | Przekierowanie | Użytkownik po wybraniu interesującego go szkolenia może przejść na stronę danej oferty poprzez kliknięcie w link. | 1 |
-| F5 | funkcjonalne | Nawigacja | Przejście do  statystyk | Użytkownik ma możliwość powrotu do strony ze statystykami poprzez kliknięcie przycisku “Rankingi” w menu nawigacyjnym. | 1 |
+| F5 | funkcjonalne | Nawigacja | Przejście do  rankingów | Użytkownik ma możliwość powrotu do strony z rankingami poprzez kliknięcie przycisku “Rankingi” w menu nawigacyjnym. | 1 |
 | F6 | funkcjonalne | Dostosowywanie wyników ofert | Brak wyników | Jeśli wpisana w wyszukiwarkę przez użytkownika fraza nie będzie pasować do żadnej z ofert to zostanie mu wyświetlony komunikat “Brak dostępnych kursów o interesującej Cię tematyce”. | 2 |
 | F7 | funkcjonalne | Dostosowywanie wyników ofert | Wyszukiwanie po kategorii | Użytkownik może wyszukać szkolenia poprzez wciśnięcie jednego z przycisków kategorii (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL). Po wciśnięciu przycisku wyświetlana jest lista kursów z wybranej kategorii. | 2 |
 | F8 | funkcjonalne | Dostosowywanie wyników ofert | Kontakt | Użytkownikowi po wciśnięciu przycisku "Napisz" zostanie wyświetlone okno do napisania wiadomości mailowej, dzięki czemu może skontaktować się z twórcami strony. | 3 |
@@ -77,6 +77,9 @@
 **Diagram przypadków użycia**
 ![UseCaseDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.PNG)
 
+**Diagram wdrożenia**
+![DeploymentDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20wdro%C5%BCenia.png)
+
 ### 5. Architektura systemu / oprogramowania
 
 **Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
@@ -85,17 +88,16 @@
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
 | --- | -------------- | ------------------------- | ------ |
 | 1 | Python | Backend aplikacji oraz scrapping ofert szkoleniowych | 3.9.2 (19.02.2021) |
-| 2 | SQL | Zapytania do bazy z ofertami | (2016) |
-| 3 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
-| 4 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
-| 5 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
-| 6 | Requests | Uproszczenie żądań | 2.25.0 (11.11.2020) |
-| 7 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
-| 8 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
-| 9 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
-| 10 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
-| 11 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
-| 12 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
+| 2 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
+| 3 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
+| 4 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
+| 5 | Requests | Uproszczenie żądań | 2.25.0 (11.11.2020) |
+| 6 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
+| 7 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
+| 8 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
+| 9 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
+| 10 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
+| 11 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
