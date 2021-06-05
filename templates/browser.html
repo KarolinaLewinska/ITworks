@@ -12,39 +12,37 @@
     <style>
         #page-container {
             position: relative;
-            min-height: 91vh;
+            min-height: 89vh;
         }
         #content-wrap {
             padding-bottom: 1.5rem;
         }
         #footer {
             position: absolute;
-            bottom: 0;
             width: 100%;
-            height: 1.5rem;
+            height: 1.5px;
         }
-        button{
+        button {
             background-color: white;
         }
-        table, td{
+        table, td {
             border: 2px solid darkgreen;
             padding: 10px;
         }
         a:link.courseLink, a:visited.courseLink {
-        background-color: darkgray;
-        color: white;
-        font-weight: bold;
-        padding: 14px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
+            background-color: darkgray;
+            color: white;
+            font-weight: bold;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
         }
         a:hover.courseLink, a:active.courseLink {
-        background-color: darkgreen;
+            background-color: darkgreen;
         }
     </style>
 </head>
-
 <body>
     <div id="page-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -72,7 +70,7 @@
                     <div class="d-flex justify-content-center mt-3 mb-3">
                         <h2>Wyszukiwarka kursów</h2>
                     </div>
-                  <form name="searchForm"class="col-12" method="POST" class="form-group" style="font-size: larger">
+                    <form name="searchForm"class="col-12" method="POST" class="form-group" style="font-size: larger">
                         <div class="d-flex justify-content-center mt-3 mb-3">
                             <button  name="java">
                                 <img src="{{url_for('static', filename='java.png')}}" alt="java" width="50px" 
@@ -125,7 +123,7 @@
         </div>
         <div class="container-fluid">
             {% for message in get_flashed_messages() %}
-                <div class="d-flex justify-content-center" style="font-size: larger; font-weight: bold; padding: 20px;"><h4>{{ message }}</h4></div>
+            <div class="d-flex justify-content-center" style="font-size: larger; font-weight: bold; padding: 20px;"><h4>{{ message }}</h4></div>
             {% endfor %}
             <table style="margin-left: auto; margin-right: auto;">
                 {% for row in rows %}
