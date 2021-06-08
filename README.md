@@ -80,6 +80,9 @@
 **Diagram wdrożenia**
 ![DeploymentDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20wdro%C5%BCenia.png)
 
+**Diagram aktywności**
+![ActivityDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20aktywno%C5%9Bci.PNG)
+
 ### 5. Architektura systemu / oprogramowania
 
 **Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
@@ -112,12 +115,12 @@
 
 | Funkcjonalność | Cel testu | Warunki wstępne | Akcja | Oczekiwana wartość |
 | -------------- | --------- | --------------- | ----- | ------------------ |
-| F1 | --------- | --------------- | ----- | ------------------ | 
-| F2 | --------- | --------------- | ----- | ------------------ |
-| F3, F6 | --------- | --------------- | ----- | ------------------ |
-| F4 | --------- | --------------- | ----- | ------------------ |
-| F5 | --------- | --------------- | ----- | ------------------ |
-| F7 | --------- | --------------- | ----- | ------------------ |
-| F8 | --------- | --------------- | ----- | ------------------ |
-| F9 | --------- | --------------- | ----- | ------------------ |
-| F10 | --------- | --------------- | ----- | ------------------ |
+| F1 | Wyświetlenie widoku z rankingami dotyczącymi ofert kursów. | Dostęp do Internetu oraz przeglądarki. | Użytkownik przechodzi na stronę ITworks poprzez wpisanie w przeglądarce adresu URL. | Użytkownikowi ukazuje się strona główna z rankingami dotyczącymi ofert kursów. | 
+| F2 | Wyświetlenie widoku z wyszukiwarką. | Użytkownik znajduje się na stronie głównej ITworks. | Użytkownik wybiera przycisk „Wyszukiwarka” w menu nawigacyjnym strony lub wpisuje odpowiedni adres URL. | Użytkownikowi ukazuje się strona z wyszukiwarką. |
+| F3, F6 | Wyszukanie ofert według wpisanej frazy w pole wyszukiwarki.  | Użytkownik znajduje się na stronie z wyszukiwarką oraz ma możliwość wpisania tekstu w pole wyszukiwania. | Użytkownik wpisuje interesującą go frazę w pole tekstowe, następnie wybiera przycisk „Wyszukaj”. | Użytkownikowi ukazuje się lista dostępnych kursów bądź komunikat o braku kursów. |
+| F4 | Przejście do strony zewnętrznej oferującej kurs. | Użytkownik otrzymuje minimalnie jeden wynik z ofertą szkoleniową. | Użytkownik wybiera interesujący go kurs i poprzez kliknięcie przycisku „Przejdź do kursu” zostaje przekierowany na stronę podmiotu oferującego kurs. | Użytkownik przechodzi na stronę z kursem i widzi szczegóły dotyczące oferty. |
+| F5 | Przejście do strony z rankingami. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera przycisk „Rankingi” w menu nawigacyjnym strony. | Użytkownikowi ukazuje się strona z rankingami. |
+| F7 | Wyszukanie ofert według języku programowania. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera jeden z przycisków znajdujących się nad wyszukiwarką. | Po wybraniu danego przycisku z kategorią użytkownikowi ukazują się odpowiednie wyniki ofert. |
+| F8 | Napisanie wiadomości do twórców strony. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera przycisk „Napisz”. Po kliknięciu ma bezpośrednią możliwość zredagowania wiadomości mailowej na adres itworks.website@gmail.com. | Użytkownik pomyślnie wysyła wiadomość na podany adres email. |
+| F9 | Wyświetlenie użytkownikowi dedykowanych stron dla kodu błędu: 500, 404, 400. | Znajdowanie się na dowolnej stronie ITworks. | Użytkownik wpisuje w adresie URL błędną frazę. | Ukazanie się odpowiednio dedykowanej strony określającej kod błędu. |
+| F10 | Wyświetlenie liczby wyników. | Znajdowanie się na stronie z wyszukiwarką oraz wyszukanie kursu/wybranie kategorii języku programowania. | Użytkownik wpisuje słowo-klucz w wyszukiwarkę lub wybiera jedną z kategorii języka programowania. | Użytkownikowi ukazuje się komunikat „Liczba wyników” z adekwatną liczbą wyszukanych ofert. |
