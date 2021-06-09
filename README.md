@@ -23,7 +23,6 @@
 
 **Wyszukiwarka**
 ![Browser](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka.png)
-![Browser with search](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka%20%2B%20Java.png)
 
 **Brak kursów**
 ![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
@@ -32,6 +31,18 @@
 ![ErrorPage](https://github.com/justynagapys/ITworks/blob/main/mockup/B%C5%82%C4%85d.png)
 
 #### Interfejsy aplikacji:
+**Rankingi**
+![Rankings](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/ranking.PNG)
+
+**Wyszukiwarka**
+![Browser](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/browser.PNG)
+![Results](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/results.PNG)
+
+**Brak kursów**
+![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
+
+**Strona błędu**
+![ErrorPage](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/errorPage.PNG)
 
 
 ### 2. Prawa autorskie 
