@@ -39,7 +39,7 @@
 ![Results](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/results.PNG)
 
 **Brak kursów**
-![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
+![NoResults](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/noResults.PNG)
 
 **Strona błędu**
 ![ErrorPage](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/errorPage.PNG)
