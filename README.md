@@ -31,6 +31,9 @@
 **Strona błędu**
 ![ErrorPage](https://github.com/justynagapys/ITworks/blob/main/mockup/B%C5%82%C4%85d.png)
 
+#### Interfejsy aplikacji:
+
+
 ### 2. Prawa autorskie 
 
 **Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
