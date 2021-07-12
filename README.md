@@ -14,7 +14,7 @@
 
 **Nazwa skrócona:** ITworks <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
-**Krótki opis:** Portal pozwalający na wyszukiwanie interesujących ofert szkoleniowych w zakresie technologii informacyjnej.
+**Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
 
 #### Projekt aplikacji:
 
