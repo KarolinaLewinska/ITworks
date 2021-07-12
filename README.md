@@ -1,5 +1,4 @@
 # INŻYNIERIA OPROGRAMOWANIA
-# rok akademicki 2020/2021
 ## ITWORKS - DOKUMENTACJA
 
 ## Spis treści:
