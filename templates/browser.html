@@ -28,7 +28,7 @@
                 width: 100%;
                 height: 1.5px;
                 font-size: larger;
-                margin-top: 50px;
+                bottom: 0;
             }
             button {
                 background-color: white;
@@ -65,11 +65,14 @@
             #results {
                 font-size: larger; 
                 font-weight: bold; 
-                padding: 20px;
+                padding-bottom: 30px;
             }
             #tableResults {
                 margin-left: auto; 
                 margin-right: auto;
+            }
+            h4 {
+                padding: 20px;
             }
         </style>
     </head>
@@ -152,7 +155,7 @@
             <div id="results" class="d-flex justify-content-center">
                 Jeśli nie znalazłeś/aś kursów z interesującego Cię zagadnienia, napisz do nas! 
             </div>
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center pb-5">
                 <button id="btn" type="submit" onclick="location.href='mailto:itworks@gmail.com';">NAPISZ</button>
             </div>
             <footer class="bg-light text-center text-lg-start">
