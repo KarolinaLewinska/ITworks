@@ -1,4 +1,5 @@
-from flask import Flask, render_template, request, redirect, flash, redirect
+from sqlite3.dbapi2 import OperationalError
+from flask import Flask, render_template, request, redirect, flash
 import sqlite3
 
 app = Flask(__name__)
@@ -41,11 +42,10 @@ def browser():
                 cur.execute(query)
                 conn.commit()
                 rows = cur.fetchall(); 
-                rows_number = len(rows)
                 if rows:
                     flash("Liczba dostępnych kursów: " + str(len(rows)))
                 if not rows:
-                    flash("Brak kursów w bazie! Wpisz w wyszukiwarkę inne zagadnienie.")
+                    flash("Brak kursów o podanej tematyce!")
                 conn.close()
                 return render_template('browser.html', rows=rows)
             except OperationalError:
@@ -61,13 +61,12 @@ def search_java():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
         return render_template('categories_search_results.html', rows=rows)
     except OperationalError:
-            flash("Wystąpił błąd podczas próby połączenia się z bazą")
+        flash("Wystąpił błąd podczas próby połączenia się z bazą")
 
 @app.route('/search-html', methods=['GET','POST'])
 def search_html():
@@ -79,7 +78,6 @@ def search_html():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -97,7 +95,6 @@ def search_csharp():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -115,7 +112,6 @@ def search_c():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -133,7 +129,6 @@ def search_cplusplus():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -151,7 +146,6 @@ def search_javascript():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -169,7 +163,6 @@ def search_php():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -187,7 +180,6 @@ def search_python():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()
@@ -205,7 +197,6 @@ def search_sql():
         cur.execute(query)
         conn.commit()
         rows = cur.fetchall()
-        rows_number = len(rows)
         if rows:
             flash("Liczba dostępnych kursów: " + str(len(rows)))
         conn.close()

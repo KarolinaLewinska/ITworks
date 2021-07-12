@@ -36,4 +36,4 @@ draw_plot(languages_stats, 'liczba ofert', 'Najpopularniejsze jezyki programowan
 
 topics = ['Programowanie', 'Sieci', 'Machine-learning', 'Big-Data', 'Windows', 'Linux', 'Mac', 'Testowanie', 'Grafika', 'Zarządzanie', 'Microsoft', 'Apple', 'Bezpieczeństwo', 'Bazy']
 topics_stats = get_data(topics)
-draw_plot(topics_stats, 'liczba ofert', 'Najpopularniejsza tematyka kursu', 'topicsChart.png')
+draw_plot(topics_stats, 'liczba ofert', 'Najpopularniejsza tematyka', 'topicsChart.png')

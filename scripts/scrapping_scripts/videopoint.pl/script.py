@@ -18,5 +18,6 @@ for category in categories:
         course_title = course.parent['title']
         course_url = "https:"+course.parent['href']
         cursor.execute ('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
+
 db.commit()
 db.close()

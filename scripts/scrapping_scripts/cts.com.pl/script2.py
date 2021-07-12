@@ -14,7 +14,8 @@ def get_data_from_multiple_pages(category, category_name, page_number):
         course_title = course.find('a').get_text()
         course_url = course.find('a')['href']
         cursor.execute('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
-        conn.commit()
+        
+    conn.commit()
     conn.close()
 
 i = 1

@@ -4,7 +4,6 @@ import sqlite3
 
 db = sqlite3.connect('courses.db')
 cursor = db.cursor()
-
 categories = {'grafika', 'microsoft-office', 'bazy-danych', 'web-development', 'zarzadzanie-projektami', 'unity'}
 
 for category in categories:
@@ -16,6 +15,6 @@ for category in categories:
         course_title = course.find('h4', class_='name').get_text()
         course_url = course['href']
         cursor.execute ('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
-    db.commit()
 
+db.commit()
 db.close()

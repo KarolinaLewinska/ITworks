@@ -20,5 +20,6 @@ for category in categories:
         main_url = 'https://www.luxoft-training.pl'
         course_url = main_url + course.find('a')['href']
         cursor.execute('INSERT INTO courses VALUES (?, ?)', (course_title, course_url))
+
 conn.commit()
 conn.close()

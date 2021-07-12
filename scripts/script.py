@@ -20,12 +20,12 @@ def delete_all_courses():
     conn.commit()
     conn.close()
 
-
 delete_all_courses()
 
 dir_name = os.path.dirname(__file__)
 main_path = os.path.join(dir_name, 'scrapping_scripts')
 list_of_files = get_list_of_files(main_path)
+
 for file_path in list_of_files:
     print("Wykonuję skrypt" + file_path)
     exec(open(file_path).read())
