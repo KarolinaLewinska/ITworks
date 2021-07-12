@@ -26,7 +26,6 @@ def draw_plot(stats, y_label, title, file_title):
     ax1.bar(lan_names[:5], lan_values[:5], color = ['limegreen', 'SeaGreen', 'forestgreen', 'green', 'darkgreen'])
     ax1.set_ylabel(y_label)
     ax1.set_title(title)
-
     fig1.savefig('static/'+file_title)
 
 
@@ -35,6 +34,6 @@ languages_stats = get_data(languages)
 draw_plot(languages_stats, 'liczba ofert', 'Najpopularniejsze jezyki programowania', 'languagesChart.png')
 
 
-topics = ['programowanie', 'sieci', 'machine learning', 'big data', 'Windows', 'Linux', 'Mac', 'test', 'web', 'grafik', 'zarządzanie', 'Microsoft', 'Apple', 'bezpieczeństwo', 'bazy']
+topics = ['Programowanie', 'Sieci', 'Machine-learning', 'Big-Data', 'Windows', 'Linux', 'Mac', 'Testowanie', 'Grafika', 'Zarządzanie', 'Microsoft', 'Apple', 'Bezpieczeństwo', 'Bazy']
 topics_stats = get_data(topics)
 draw_plot(topics_stats, 'liczba ofert', 'Najpopularniejsza tematyka kursu', 'topicsChart.png')
