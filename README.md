@@ -3,14 +3,14 @@
 
 ## Spis treści:
 1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)
-3. [Prawa autorskie](#2-prawa-autorskie)
-4. [Specyfikacja wymagań](#3-specyfikacja-wymagań)
-5. [Projekt (język UML)](#4-projekt-język-uml)
-6. [Architektura systemu / oprogramowania](#5-architektura-systemu--oprogramowania)
-7. [Testy](#6-testy)
+2. [Interfejsy](#2-interfejsy)
+3. [Prawa autorskie](#3-prawa-autorskie)
+4. [Specyfikacja wymagań](#4-specyfikacja-wymagań)
+5. [Projekt (język UML)](#5-projekt-język-uml)
+6. [Architektura systemu / oprogramowania](#6-architektura-systemu--oprogramowania)
+7. [Testy](#7-testy)
 
 ### 1. Charakterystyka oprogramowania
-
 **Nazwa skrócona:** ITworks <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
