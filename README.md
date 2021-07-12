@@ -3,11 +3,11 @@
 
 ## Spis treści:
 1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)
-2. [Prawa autorskie](#2-prawa-autorskie)
-3. [Specyfikacja wymagań](#3-specyfikacja-wymagań)
-4. [Projekt (język UML)](#4-projekt-język-uml)
-5. [Architektura systemu / oprogramowania](#5-architektura-systemu--oprogramowania)
-6. [Testy](#6-testy)
+3. [Prawa autorskie](#2-prawa-autorskie)
+4. [Specyfikacja wymagań](#3-specyfikacja-wymagań)
+5. [Projekt (język UML)](#4-projekt-język-uml)
+6. [Architektura systemu / oprogramowania](#5-architektura-systemu--oprogramowania)
+7. [Testy](#6-testy)
 
 ### 1. Charakterystyka oprogramowania
 
@@ -15,12 +15,18 @@
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
 
-### 2. Prawa autorskie 
+### 2. Interfejsy
+![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/ranking.PNG)<br/>
+![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/browser.PNG)<br/>
+![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/results.PNG)<br/>
+![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/error404.PNG)<br/>
+
+### 3. Prawa autorskie 
 
 **Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
 **Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0
 
-### 3. Specyfikacja wymagań
+### 4. Specyfikacja wymagań
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
@@ -56,7 +62,7 @@
 | NF20 | niefunkcjonalne | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
 | NF21 | niefunkcjonalne | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
 
-### 4. Projekt (język UML)
+### 5. Projekt (język UML)
 
 **Diagram przypadków użycia**
 ![UseCaseDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.PNG)
@@ -67,7 +73,7 @@
 **Diagram aktywności**
 ![ActivityDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20aktywno%C5%9Bci.PNG)
 
-### 5. Architektura systemu / oprogramowania
+### 6. Architektura systemu / oprogramowania
 
 **Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
 
@@ -94,7 +100,7 @@
 | 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórcami | - |
 | 5 | Git | System kontroli wersji tworzonej aplikacji | 2.31.1 (26 marca 2021) |
 
-### 6. Testy
+### 7. Testy
 
 | Funkcjonalność | Cel testu | Warunki wstępne | Akcja | Oczekiwana wartość |
 | -------------- | --------- | --------------- | ----- | ------------------ |
