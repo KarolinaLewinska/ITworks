@@ -16,35 +16,6 @@
 **Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
 
-#### Projekt aplikacji:
-
-**Rankingi**
-![Rankings](https://github.com/justynagapys/ITworks/blob/main/mockup/Rankingi.png)
-
-**Wyszukiwarka**
-![Browser](https://github.com/justynagapys/ITworks/blob/main/mockup/Wyszukiwarka.png)
-
-**Brak kursów**
-![NoCourses](https://github.com/justynagapys/ITworks/blob/main/mockup/Brak%20kurs%C3%B3w.png)
-
-**Strona błędu**
-![ErrorPage](https://github.com/justynagapys/ITworks/blob/main/mockup/B%C5%82%C4%85d.png)
-
-#### Interfejsy aplikacji:
-**Rankingi**
-![Rankings](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/ranking.PNG)
-
-**Wyszukiwarka**
-![Browser](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/browser.PNG)
-![Results](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/results.PNG)
-
-**Brak kursów**
-![NoResults](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/noResults.PNG)
-
-**Strona błędu**
-![ErrorPage](https://github.com/KarolinaLewinska/ITworks/blob/main/Interfaces/errorPage.PNG)
-
-
 ### 2. Prawa autorskie 
 
 **Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
@@ -113,8 +84,7 @@
 | 7 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
 | 8 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
 | 9 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
-| 10 | app.moqups.com | Stworzenie projektu aplikacji | 2.11.34 |
-| 11 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
+| 10 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
 
 #### Architektura uruchomieniowa:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
