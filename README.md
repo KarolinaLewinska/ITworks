@@ -23,7 +23,7 @@
 
 ### 3. Prawa autorskie 
 
-**Autorzy:** Karolina Lewińska, Justyna Gapys, Marcin Wiśniewski <br> 
+**Autorzy:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98) <br> 
 **Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0
 
 ### 4. Specyfikacja wymagań
