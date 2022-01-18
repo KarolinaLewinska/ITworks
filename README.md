@@ -11,8 +11,8 @@
 7. [Testy](#7-testy)
 
 ### 1. Charakterystyka oprogramowania
-**Nazwa skrócona:** ITworks <br> 
-**Nazwa pełna:** ITworks – search courses and develop your IT skills <br> 
+**Nazwa skrócona:** ITworks, <br> 
+**Nazwa pełna:** ITworks – search courses and develop your IT skills, <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
 
 ### 2. Interfejsy
@@ -23,8 +23,8 @@
 
 ### 3. Prawa autorskie 
 
-**Autorzy:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98) <br> 
-**Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0
+**Autorzy:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98), <br> 
+**Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0.
 
 ### 4. Specyfikacja wymagań
 
@@ -75,7 +75,7 @@
 
 ### 6. Architektura systemu / oprogramowania
 
-**Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl
+**Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl.
 
 #### Architektura rozwoju:
 | LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
