@@ -25,7 +25,7 @@
 
 | ID | Category      | Subcategory                 | Short name              | Description                                                               | Priority |
 | -- | --------------- | ------------------------ | ------------------------- | ------------------------------------------------------------------ | --------- |
-| F1 | Functional | Main Page | Displaying Ranking | System allows to display rankings with the number of available courses by the popularity of programming languages and by the popularity of subjects.| high |
+| F1 | Functional | Main Page | Displaying Rankings | System allows to display rankings with the number of available courses by the popularity of programming languages and by the popularity of subjects.| high |
 | F2 | Functional | Navigation | Navigation to browser | System allows to redirect an user to courses' browser via menu button. | high |
 | F3 | Functional | Searching Results | Searching results by keyword | System allows to search courses by keyword. Results are diisplayed in alphabetical order. | high |
 | F4 | Functional | Navigation | Navigation to course page | System allows to redirect an user to the website of course. | high |
