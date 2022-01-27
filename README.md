@@ -57,16 +57,13 @@
 | NF20 | Non-functional | Ergonomy | Updating database | Application has one script, which lets update the database. | medium |
 
 ### 5. UML diagrams
-
 **Use Case Diagram**<br/>
 ![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)<br/>
-
 **Activity Diagram**<br/>
 ![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
 ### 6. Software Architecture
-
-**Webistes from where were taken courses:** [alx.pl](https://www.alx.pl/), [cts.com.pl](https://cts.com.pl/), [itschool.pl](https://itschool.pl/), [luxoft-training.pl](https://www.luxoft-training.pl/), [videopoint.pl](https://videopoint.pl/).
+**Webistes from where were taken courses offers:** [alx.pl](https://www.alx.pl/), [cts.com.pl](https://cts.com.pl/), [itschool.pl](https://itschool.pl/), [luxoft-training.pl](https://www.luxoft-training.pl/), [videopoint.pl](https://videopoint.pl/). <br/>
 
 |  | Name | Usage | Version |
 | --- | -------------- | ------------------------- | ------ |
