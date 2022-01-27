@@ -11,7 +11,7 @@
 
 ### 1. Short Description
 - ITworks – search courses and develop your IT skills.<br> 
-- Website which allows to search for courses offers in information technology.<br> 
+- Website which allows searching for courses offers in information technology.<br> 
 
 ### 2. Interfaces
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/ranking.PNG)<br/>
