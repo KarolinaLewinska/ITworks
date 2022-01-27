@@ -1,4 +1,4 @@
-# ItWorks
+# ITWorks
 
 ## Table of Contents:
 1. [Short Description](#1-short-description)
