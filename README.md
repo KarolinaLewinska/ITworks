@@ -1,6 +1,6 @@
 # ITWorks
 
-### Table of Contents
+## Table of Contents
 1. [Short Description](#1-short-description)
 2. [Interfaces](#2-interfaces)
 3. [Authors](#3-authors)
@@ -35,28 +35,27 @@
 | F7 | Functional | Searching Results | Searching by category | System allows to find courses by clicking one of the button with the name of category (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL) | medium |
 | F8 | Functional | Searching Results | Message to authors | System allows to write an email message to the authors. | low |
 | F9 | Functional  | Error Handling | Error page | System allows to display error page for 500, 404 and statuses. | low |
-| F10 | Functional  | Searching Results | Displaying searching offers | System allows to display offers which an user wants to search. | low |
-| NF1 | Non-functional | Projektowe | Rodzaj aplikacji | Portal jest aplikacją webową. | 1 |
-| NF2 | Non-functional | Projektowe | Używana technologia | W projekcie jest wykorzystywana technologia wolnodostępna. | 1 |
-| NF3 | Non-functional | Projektowe | Obsługiwane przeglądarki | Aplikacja działa w przeglądarkach takich jak Google Chrome, Internet Explorer, Safari, Opera, Mozilla Firefox.| 1 |
-| NF4 | Non-functional | Projektowe | Dostęp do internetu | Aplikacja działa tylko i wyłącznie jeśli użytkownik posiada dostęp do internetu. | 1 |
-| NF5 | Non-functional | Projektowe | Środowisko pracy aplikacji | Aplikacja działa w systemie operacyjnym Windows, macOS, Linux. | 1 |
-| NF6 | Non-functional | Bezpieczeństwo | Testowalność aplikacji | Środowisko testowe powinno być stworzone w taki sposób aby funkcjonalność aplikacji była możliwa do przetestowania. | 1 |
-| NF7 | Non-functional | Bezpieczeństwo | Backup | Aplikacja powinna posiadać kopie zapasowe z systemu kontroli wersji. | 1 |
-| NF8 | Non-functional | UI | Język aplikacji| Strona jest stworzona w języku polskim. | 1 |
-| NF9 | Non-functional | UI | Nawigacja aplikacji | Wszystkie podstrony powinny być łatwe w odnalezieniu przez użytkownika. | 1 |
-| NF10 | Non-functional | UI | Sposób wyświetlania listy oferty | Lista z ofertami kursów powinna być wyświetlona w sposób przejrzysty i zrozumiały dla użytkownika. | 1 |
-| NF11 | Non-functional | UI | Linki przekierowujące do oferty | Linki przekierowujące do ofert szkoleniowych powinny jasno wskazywać możliwość przejścia na stronę z ofertą. Przekierowanie na stronę z kursem wymaga tylko jednego kliknięcia. | 1 |
-| NF12 | Non-functional | UI | Wygląd interfejsów | Interfejsy powinny być spójne pod względem estetycznym. | 1 |
-| NF13 | Non-functional | Bezpieczeństwo | Strony z ofertami | Oferty znajdujące się w naszej bazie pochodzą ze sprawdzonych stron. | 2 |
-| NF14 | Non-functional | Wydajność | Czas załadowania listy wyników | Użytkownikowi powinna ukazać się lista z wynikami w czasie nie większym niż 3 sekundy. | 2 |
-| NF15 | Non-functional | Wydajność | Czas reakcji| Czas reakcji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
-| NF16 | Non-functional | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
-| NF17 | Non-functional | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
-| NF18 | Non-functional | Ergonomia | Aktualizacja bazy z kursami | Aplikacja będzie posiadała jeden główny skrypt, który po uruchomieniu będzie usuwał stare dane o kursach i dostarczał nowe. | 2 |
-| NF19 | Non-functional | UI | Logo aplikacji | Logo aplikacji umieszczone jest w menu nawigacyjnym w lewym górnym rogu oraz w stopce na środku. | 2 |
-| NF20 | Non-functional | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
-| NF21 | Non-functional | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
+| F10 | Functional  | Searching Results | Displaying searching offers | System allows to display offers which an user wants to search. | high |
+| NF1 | Non-functional | Project | Type of application | ITWorks is a web application. | high |
+| NF2 | Non-functional | Project | Technology | It is used free and available technology. | high |
+| NF3 | Non-functional | Project | Supported browsers | Application supports Google Chrome, Internet Explorer, Safari, Opera and Mozilla Firefox browsers. | high |
+| NF4 | Non-functional | Project | Access to the Internet | Application must be always under Internet connection. | high |
+| NF5 | Non-functional | Security | Testing | Application must be tested before release. | high |
+| NF6 | Non-functional | Security | Backup | Application must have backup from version control (git). | high |
+| NF7 | Non-functional | User Interface | Język aplikacji| Strona jest stworzona w języku polskim. | 1 |
+| NF8 | Non-functional | User Interface | Nawigacja aplikacji | Wszystkie podstrony powinny być łatwe w odnalezieniu przez użytkownika. | 1 |
+| NF9 | Non-functional | User Interface | Sposób wyświetlania listy oferty | Lista z ofertami kursów powinna być wyświetlona w sposób przejrzysty i zrozumiały dla użytkownika. | 1 |
+| NF10 | Non-functional | User Interface | Linki przekierowujące do oferty | Linki przekierowujące do ofert szkoleniowych powinny jasno wskazywać możliwość przejścia na stronę z ofertą. Przekierowanie na stronę z kursem wymaga tylko jednego kliknięcia. | 1 |
+| NF11 | Non-functional | User Interface | Wygląd interfejsów | Interfejsy powinny być spójne pod względem estetycznym. | 1 |
+| NF12 | Non-functional | Bezpieczeństwo | Strony z ofertami | Oferty znajdujące się w naszej bazie pochodzą ze sprawdzonych stron. | 2 |
+| NF13 | Non-functional | Wydajność | Czas załadowania listy wyników | Użytkownikowi powinna ukazać się lista z wynikami w czasie nie większym niż 3 sekundy. | 2 |
+| NF14 | Non-functional | Wydajność | Czas reakcji| Czas reakcji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
+| NF15 | Non-functional | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
+| NF16 | Non-functional | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
+| NF17 | Non-functional | Ergonomia | Aktualizacja bazy z kursami | Aplikacja będzie posiadała jeden główny skrypt, który po uruchomieniu będzie usuwał stare dane o kursach i dostarczał nowe. | 2 |
+| NF18 | Non-functional | UI | Logo aplikacji | Logo aplikacji umieszczone jest w menu nawigacyjnym w lewym górnym rogu oraz w stopce na środku. | 2 |
+| NF19 | Non-functional | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
+| NF20 | Non-functional | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
 
 ### 5. UML diagrams
 
