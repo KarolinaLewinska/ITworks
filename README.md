@@ -58,11 +58,11 @@
 
 ### 5. UML diagrams
 
-**Use Case Diagram**
-![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)
+**Use Case Diagram**<br/>
+![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)<br/>
 
-**Activity Diagram**
-![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)
+**Activity Diagram**<br/>
+![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
 ### 6. Software Architecture
 
