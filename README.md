@@ -8,7 +8,7 @@
 5. [UML Diagrams](#5-uml-diagrams)
 6. [Software Architecture](#6-software-architecture)
 
-### Short Description
+## Short Description
 ITworks – search for courses and develop your IT skills.<br> 
 
 ### 2. Interfaces
