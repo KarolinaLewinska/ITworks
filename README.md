@@ -3,16 +3,15 @@
 ## Table of Contents:
 1. [Short Description](#1-short-description)
 2. [Interfaces](#2-interfaces)
-3. [Copyrights](#3-copyrights)
+3. [Authors](#3-authors)
 4. [Requirements Specifications](#4-requirements-specifications)
 5. [UML Diagrams](#5-uml-diagrams)
 6. [Software Architecture](#6-software-architecture)
 7. [Tests](#7-tests)
 
 ### 1. Short Description
-**Nazwa skrócona:** ITworks, <br> 
-**Nazwa pełna:** ITworks – search courses and develop your IT skills, <br> 
-**Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
+- ITworks – search courses and develop your IT skills.<br> 
+- Website which allows to search for courses offers in information technology.<br> 
 
 ### 2. Interfaces
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/ranking.PNG)<br/>
@@ -20,14 +19,12 @@
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/results.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/error404.PNG)<br/>
 
-### 3. Copyrights
-
-**Autorzy:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98), <br> 
-**Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0.
+### 3. Authors
+**Authors:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98)<br> 
 
 ### 4. Requirements Specifications
 
-| ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
+| ID | Category     | Subcategory                 | Short name              | Description                                                               | Priority |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
 | F1 | funkcjonalne | Strona główna | Rankingi | Użytkownik po wejściu na stronę główną widzi rankingi dotyczące liczby dostępnych kursów o najpopularniejszej tematyce oraz odnoszące się do najpopularniejszych języków programowania. | 1 |
 | F2 | funkcjonalne | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka” w menu nawigacyjnym przejść na podstronę z wyszukiwarką kursów. | 1 |
