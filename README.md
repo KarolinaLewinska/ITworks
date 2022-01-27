@@ -65,11 +65,11 @@ ITworks – search for courses and develop your IT skills.<br>
 
 ### 6. Software Architecture
 **Webistes from where were taken courses offers**<br/>
-[alx.pl](https://www.alx.pl/)<br/>
-[cts.com.pl](https://cts.com.pl/)<br/>
-[itschool.pl](https://itschool.pl/)<br/>
-[luxoft-training.pl](https://www.luxoft-training.pl/)<br/>
-[videopoint.pl](https://videopoint.pl/)<br/>
+- [alx.pl](https://www.alx.pl/)<br/>
+- [cts.com.pl](https://cts.com.pl/)<br/>
+- [itschool.pl](https://itschool.pl/)<br/>
+- [luxoft-training.pl](https://www.luxoft-training.pl/)<br/>
+- [videopoint.pl](https://videopoint.pl/)<br/>
 
 |     | Name           | Usage                     | Version |
 | --- | -------------- | ------------------------- | ------  |
