@@ -53,8 +53,8 @@ ITworks – search for courses and develop your IT skills.<br>
 | NF15 | Non-functional | Performance | Time of loading results | Maximal time of loading results is 3 seconds. | medium |
 | NF16 | Non-functional | Performance | Time of reaction | Maximal reaction time of user activity by application is 3 seconds. | medium |
 | NF17 | Non-functional | Performance | Number of users | The maximal number of users which use application at the same time is 500. | medium |
-| NF18 | Non-functional | Ergonomy | New functionalities | Code of application must allow to implement easily new functionalities. | medium |
-| NF19 | Non-functional | Ergonomy | Maintenance | The project' structure and code must be easy to maintain. | medium |
+| NF18 | Non-functional | Ergonomy | New functionalities | Code of application must allow to implement easily new functionalities. | high |
+| NF19 | Non-functional | Ergonomy | Maintenance | The project' structure and code must be easy to maintain. | high |
 | NF20 | Non-functional | Ergonomy | Updating database | Application has one script, which lets update the database contents. | medium |
 
 ### 5. UML diagrams
