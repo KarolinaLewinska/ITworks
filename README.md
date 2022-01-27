@@ -42,20 +42,20 @@
 | NF4 | Non-functional | Project | Access to the Internet | Application must be always under Internet connection. | high |
 | NF5 | Non-functional | Security | Testing | Application must be tested before release. | high |
 | NF6 | Non-functional | Security | Backup | Application must have backup from version control (git). | high |
-| NF7 | Non-functional | User Interface | Język aplikacji| Strona jest stworzona w języku polskim. | 1 |
-| NF8 | Non-functional | User Interface | Nawigacja aplikacji | Wszystkie podstrony powinny być łatwe w odnalezieniu przez użytkownika. | 1 |
-| NF9 | Non-functional | User Interface | Sposób wyświetlania listy oferty | Lista z ofertami kursów powinna być wyświetlona w sposób przejrzysty i zrozumiały dla użytkownika. | 1 |
-| NF10 | Non-functional | User Interface | Linki przekierowujące do oferty | Linki przekierowujące do ofert szkoleniowych powinny jasno wskazywać możliwość przejścia na stronę z ofertą. Przekierowanie na stronę z kursem wymaga tylko jednego kliknięcia. | 1 |
-| NF11 | Non-functional | User Interface | Wygląd interfejsów | Interfejsy powinny być spójne pod względem estetycznym. | 1 |
-| NF12 | Non-functional | Bezpieczeństwo | Strony z ofertami | Oferty znajdujące się w naszej bazie pochodzą ze sprawdzonych stron. | 2 |
-| NF13 | Non-functional | Wydajność | Czas załadowania listy wyników | Użytkownikowi powinna ukazać się lista z wynikami w czasie nie większym niż 3 sekundy. | 2 |
-| NF14 | Non-functional | Wydajność | Czas reakcji| Czas reakcji aplikacji na działanie użytkownika nie powinien przekraczać 3 sekund. | 2 |
-| NF15 | Non-functional | Ergonomia | Rozbudowa aplikacji | Kod aplikacji pozwala na prostą implementację kolejnych funkcjonalności. | 2 |
-| NF16 | Non-functional | Ergonomia | Pielęgnacja aplikacji | Struktura projektu i kod aplikacji muszą być łatwe w utrzymywaniu. | 2 |
-| NF17 | Non-functional | Ergonomia | Aktualizacja bazy z kursami | Aplikacja będzie posiadała jeden główny skrypt, który po uruchomieniu będzie usuwał stare dane o kursach i dostarczał nowe. | 2 |
-| NF18 | Non-functional | UI | Logo aplikacji | Logo aplikacji umieszczone jest w menu nawigacyjnym w lewym górnym rogu oraz w stopce na środku. | 2 |
-| NF19 | Non-functional | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
-| NF20 | Non-functional | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
+| NF7 | Non-functional | Security | Offerts' websites | Offers must came from verified websites. | medium |
+| NF8 | Non-functional | User Interface | Language| Application is dedicated to polish users. | high |
+| NF9 | Non-functional | User Interface | Navigation | All subpages must be easy to find by user. | high |
+| NF10 | Non-functional | User Interface | Displaying offers | List of offers must be clearly presented for an user. | high |
+| NF11 | Non-functional | User Interface | Navigation to link offers | Links to offers must clearly present possibility to visit the courses' websites. | high |
+| NF12 | Non-functional | User Interface | Interfaces' presentation | User interfaces must be aesthetically consistent. | high |
+| NF13 | Non-functional | User Interface | Logo | Application must have the logo. | medium |
+| NF14 | Non-functional | User Interface | Responsiveness | Application must be fully responsive. | low |
+| NF15 | Non-functional | Performance | Time of loading results | Time of loading results must be lower than 3 seconds. | medium |
+| NF16 | Non-functional | Performance | Time of reaction| The reaction time of user activity must be lower than 3 seconds. | medium |
+| NF17 | Non-functional | Performance | Number of users | The maximal number of users which use application at the same time must be 500. | low |
+| NF18 | Non-functional | Ergonomy | New functionalities | Code of applicatiom must let implement easily new functionalities. | medium |
+| NF19 | Non-functional | Ergonomy | Maintenance | The project' structure and code must be easy to maintain. | medium |
+| NF20 | Non-functional | Ergonomy | Updating database | Application has one script, which lets update the database. | medium |
 
 ### 5. UML diagrams
 
