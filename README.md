@@ -42,7 +42,7 @@ ITworks – search for courses and develop your IT skills.<br>
 | NF4 | Non-functional | Project | Access to the Internet | Application must be always under Internet connection. | high |
 | NF5 | Non-functional | Security | Testing | Application must be tested before release. | high |
 | NF6 | Non-functional | Security | Backup | Application must have backup from version control (git). | high |
-| NF7 | Non-functional | Security | Offerts' websites | Offers must came from verified websites. | medium |
+| NF7 | Non-functional | Security | Offerts' websites | Offers must came from verified websites. | high |
 | NF8 | Non-functional | User Interface | Language| Application is dedicated to polish users. | high |
 | NF9 | Non-functional | User Interface | Navigation | All subpages must be easy to find by user. | high |
 | NF10 | Non-functional | User Interface | Displaying offers | List of offers must be clearly presented for an user. | high |
