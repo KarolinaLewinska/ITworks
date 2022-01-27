@@ -23,7 +23,7 @@ ITworks – search for courses and develop your IT skills.<br>
 [Marcin Wiśniewski](https://github.com/marcinwisniewski98)<br> 
 
 ## Requirements Specifications
-
+</br>
 | ID | Category           | Subcategory          | Short name              | Description                                                        | Priority  |
 | -- | -------------------| ---------------------| ------------------------| ------------------------------------------------------------------ | ----------|
 | F1 | Functional | Main Page | Displaying Rankings | System allows to display rankings with the numbers of available courses by the popularity of programming languages and by the popularity of subjects.| high |
