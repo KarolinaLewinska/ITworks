@@ -1,6 +1,6 @@
 # ITWorks
 
-## Table of Contents
+### Table of Contents
 1. [Short Description](#1-short-description)
 2. [Interfaces](#2-interfaces)
 3. [Authors](#3-authors)
