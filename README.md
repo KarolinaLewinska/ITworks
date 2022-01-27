@@ -2,27 +2,27 @@
 
 ## Table of Contents
 1. [Short Description](#short-description)
-2. [Interfaces](#2-interfaces)
-3. [Authors](#3-authors)
-4. [Requirements Specifications](#4-requirements-specifications)
-5. [UML Diagrams](#5-uml-diagrams)
-6. [Software Architecture](#6-software-architecture)
+2. [Interfaces](#interfaces)
+3. [Authors](#authors)
+4. [Requirements Specifications](#requirements-specifications)
+5. [UML Diagrams](#uml-diagrams)
+6. [Software Architecture](#software-architecture)
 
 ## Short Description
 ITworks – search for courses and develop your IT skills.<br> 
 
-### 2. Interfaces
+## Interfaces
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/ranking.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/browser.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/results.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/error404.PNG)<br/>
 
-### 3. Authors
+## Authors
 [Karolina Lewińska](https://github.com/KarolinaLewinska)<br> 
 [Justyna Gapys](https://github.com/justynagapys)<br> 
 [Marcin Wiśniewski](https://github.com/marcinwisniewski98)<br> 
 
-### 4. Requirements Specifications
+## Requirements Specifications
 
 | ID | Category           | Subcategory          | Short name              | Description                                                        | Priority  |
 | -- | -------------------| ---------------------| ------------------------| ------------------------------------------------------------------ | ----------|
@@ -57,13 +57,13 @@ ITworks – search for courses and develop your IT skills.<br>
 | NF19 | Non-functional | Ergonomy | Maintenance | The project' structure and code must be easy to maintain. | high |
 | NF20 | Non-functional | Ergonomy | Updating database | Application has one script, which lets update the database contents. | medium |
 
-### 5. UML diagrams
+## UML diagrams
 **Use Case Diagram**<br/>
 ![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)<br/>
 **Activity Diagram**<br/>
 ![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
-### 6. Software Architecture
+## Software Architecture
 **Webistes from where were taken courses offers**<br/>
 - [alx.pl](https://www.alx.pl/)<br/>
 - [cts.com.pl](https://cts.com.pl/)<br/>
