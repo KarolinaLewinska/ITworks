@@ -25,7 +25,7 @@
 ### 4. Requirements Specifications
 
 | ID | Category      | Subcategory                 | Short name              | Description                                                               | Priority |
-| -- | --------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
+| -- | --------------- | ------------------------ | ------------------------- | ------------------------------------------------------------------ | --------- |
 | F1 | functional | Strona główna | Rankingi | Użytkownik po wejściu na stronę główną widzi rankingi dotyczące liczby dostępnych kursów o najpopularniejszej tematyce oraz odnoszące się do najpopularniejszych języków programowania. | 1 |
 | F2 | functional | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka” w menu nawigacyjnym przejść na podstronę z wyszukiwarką kursów. | 1 |
 | F3 | functional | Dostosowywanie wyników stron | Wyszukiwanie | Użytkownik po wpisaniu w pole tekstowe interesującej go frazy otrzyma listę wyników z ofertami szkoleń domyślnie posortowanymi alfabetycznie. | 1 |
