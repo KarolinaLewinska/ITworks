@@ -45,7 +45,7 @@ ITworks – search for courses and develop your IT skills.<br>
 | NF7 | Non-functional | Security | Offerts' websites | Offers must came from verified websites. | high |
 | NF8 | Non-functional | User Interface | Language| Application is dedicated to polish users. | high |
 | NF9 | Non-functional | User Interface | Navigation | All subpages must be easy to find by user. | high |
-| NF10 | Non-functional | User Interface | Displaying offers | List of offers must be clearly presented for an user. | high |
+| NF10 | Non-functional | User Interface | Displaying offers | List of offers must be clearly presented for user. | high |
 | NF11 | Non-functional | User Interface | Navigation to link offers | Links to offers must clearly present possibility to visit the courses' websites. | high |
 | NF12 | Non-functional | User Interface | Interfaces' presentation | User interfaces must be aesthetically consistent. | high |
 | NF13 | Non-functional | User Interface | Logo | Application must have a logo. | medium |
