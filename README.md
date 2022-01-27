@@ -1,7 +1,7 @@
 # ItWorks
 
 ## Table of Contents:
-1. [Short description](#1-short-description)
+1. [Short Description](#1-short-description)
 2. [Interfaces](#2-interfejsy)
 3. [Copyrights](#3-prawa-autorskie)
 4. [Requirements Specifications](#4-specyfikacja-wymagań)
@@ -9,7 +9,7 @@
 6. [Software Architecture](#6-architektura-systemu--oprogramowania)
 7. [Tests](#7-testy)
 
-### 1. Charakterystyka oprogramowania
+### 1. Short Description
 **Nazwa skrócona:** ITworks, <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills, <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
