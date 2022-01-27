@@ -18,7 +18,9 @@ ITworks – search for courses and develop your IT skills.<br>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/error404.PNG)<br/>
 
 ### 3. Authors
-**Authors:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98)<br> 
+[Karolina Lewińska](https://github.com/KarolinaLewinska)<br> 
+[Justyna Gapys](https://github.com/justynagapys)<br> 
+[Marcin Wiśniewski](https://github.com/marcinwisniewski98)<br> 
 
 ### 4. Requirements Specifications
 
