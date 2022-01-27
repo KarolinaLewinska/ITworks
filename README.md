@@ -64,7 +64,7 @@ ITworks – search for courses and develop your IT skills.<br>
 ![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
 ## Software Architecture
-**Webistes from where were taken courses offers**<br/>
+**Webistes from where were taken courses offers:**<br/>
 - [alx.pl](https://www.alx.pl/)<br/>
 - [cts.com.pl](https://cts.com.pl/)<br/>
 - [itschool.pl](https://itschool.pl/)<br/>
