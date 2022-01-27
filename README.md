@@ -82,5 +82,5 @@
 | 7 | HTML5 | Structures of views | 1.4938 (01.11.2016) |
 | 8 | CSS3 | Appearance of view | v. 3 (07.06.2011)|
 | 9 | Bootstrap | Appearance of view | 4.4.1 (28.11.2019) |
-| 10 | visual-paradigm.com | UML diagrams | (2020) |
-| 11 | Git | Version control system | 2.31.1 (26 marca 2021) |
+| 10 | Visual Paradigm | UML diagrams | (2020) |
+| 11 | Git | Version control system | 2.31.1 (26.03.2021) |
