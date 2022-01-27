@@ -7,7 +7,6 @@
 4. [Requirements Specifications](#4-requirements-specifications)
 5. [UML Diagrams](#5-uml-diagrams)
 6. [Software Architecture](#6-software-architecture)
-7. [Tests](#7-tests)
 
 ### 1. Short Description
 - ITworks – search courses and develop your IT skills.<br> 
@@ -70,41 +69,18 @@
 
 ### 6. Software Architecture
 
-**Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl.
+**Webistes from where were taken courses:** [alx.pl](https://www.alx.pl/), [cts.com.pl](https://cts.com.pl/), [itschool.pl](https://itschool.pl/), [luxoft-training.pl](https://www.luxoft-training.pl/), [videopoint.pl](https://videopoint.pl/).
 
-#### Architektura rozwoju:
-| LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
+|  | Name | Usage | Version |
 | --- | -------------- | ------------------------- | ------ |
-| 1 | Python | Backend aplikacji oraz scrapping ofert szkoleniowych | 3.9.2 (19.02.2021) |
-| 2 | Flask | Backend aplikacji | 1.1.2 (03.04.2020) |
-| 3 | SQLite | Zarządzanie relacyjną bazą danych z ofertami | 3.33.0 (14.08.2020) |
+| 1 | Python | Backend and web scrapping | 3.9.2 (19.02.2021) |
+| 2 | Flask | Backend | 1.1.2 (03.04.2020) |
+| 3 | SQLite | Database | 3.33.0 (14.08.2020) |
 | 4 | Beautiful Soup | Web scraping | 4.9.3 (03.10.2020) |
-| 5 | Requests | Uproszczenie żądań | 2.25.0 (11.11.2020) |
-| 6 | Matplotlib | Wykresy do rankingu | 3.1.3 (02.02.2020) |
-| 7 | HTML5 | Struktura widoków aplikacji | 1.4938 (01.11.2016) |
-| 8 | CSS3 | Wygląd interfejsów | v. 3 (07.06.2011)|
-| 9 | Bootstrap | Wygląd interfejsów | 4.4.1 (28.11.2019) |
-| 10 | visual-paradigm.com | Stworzenie diagramu UML | (2020) |
-
-#### Architektura uruchomieniowa:
-| LP. | Nazwa produktu | Przeznaczenie w projekcie | Wersja |
-| --- | -------------- | ------------------------- | ------ |
-| 1 | Visual Studio Code | Środowisko IDE używane przy tworzeniu projektu | 1.55.0 (30.03 2021) |
-| 2 | Google Chrome | Przeglądarka używana przy uruchamianiu projektu | 90.0.4430.51 (31.03. 2021) |
-| 3 | Windows 10 | System operacyjny używany przy tworzeniu projektu | 20H2 10.0.19042.870 (29.10.2020) |
-| 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórcami | - |
-| 5 | Git | System kontroli wersji tworzonej aplikacji | 2.31.1 (26 marca 2021) |
-
-### 7. Tests
-
-| Funkcjonalność | Cel testu | Warunki wstępne | Akcja | Oczekiwana wartość |
-| -------------- | --------- | --------------- | ----- | ------------------ |
-| F1 | Wyświetlenie widoku z rankingami dotyczącymi ofert kursów. | Dostęp do Internetu oraz przeglądarki. | Użytkownik przechodzi na stronę ITworks poprzez wpisanie w przeglądarce adresu URL. | Użytkownikowi ukazuje się strona główna z rankingami dotyczącymi ofert kursów. | 
-| F2 | Wyświetlenie widoku z wyszukiwarką. | Użytkownik znajduje się na stronie głównej ITworks. | Użytkownik wybiera przycisk „Wyszukiwarka” w menu nawigacyjnym strony lub wpisuje odpowiedni adres URL. | Użytkownikowi ukazuje się strona z wyszukiwarką. |
-| F3, F6 | Wyszukanie ofert według wpisanej frazy w pole wyszukiwarki.  | Użytkownik znajduje się na stronie z wyszukiwarką oraz ma możliwość wpisania tekstu w pole wyszukiwania. | Użytkownik wpisuje interesującą go frazę w pole tekstowe, następnie wybiera przycisk „Wyszukaj”. | Użytkownikowi ukazuje się lista dostępnych kursów bądź komunikat o braku kursów. |
-| F4 | Przejście do strony zewnętrznej oferującej kurs. | Użytkownik otrzymuje minimalnie jeden wynik z ofertą szkoleniową. | Użytkownik wybiera interesujący go kurs i poprzez kliknięcie przycisku „Przejdź do kursu” zostaje przekierowany na stronę podmiotu oferującego kurs. | Użytkownik przechodzi na stronę z kursem i widzi szczegóły dotyczące oferty. |
-| F5 | Przejście do strony z rankingami. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera przycisk „Rankingi” w menu nawigacyjnym strony. | Użytkownikowi ukazuje się strona z rankingami. |
-| F7 | Wyszukanie ofert według języku programowania. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera jeden z przycisków znajdujących się nad wyszukiwarką. | Po wybraniu danego przycisku z kategorią użytkownikowi ukazują się odpowiednie wyniki ofert. |
-| F8 | Napisanie wiadomości do twórców strony. | Użytkownik znajduje się na stronie z wyszukiwarką. | Użytkownik wybiera przycisk „Napisz”. Po kliknięciu ma bezpośrednią możliwość zredagowania wiadomości mailowej na adres itworks.website@gmail.com. | Użytkownik pomyślnie wysyła wiadomość na podany adres email. |
-| F9 | Wyświetlenie użytkownikowi dedykowanych stron dla kodu błędu: 500, 404, 400. | Znajdowanie się na dowolnej stronie ITworks. | Użytkownik wpisuje w adresie URL błędną frazę. | Ukazanie się odpowiednio dedykowanej strony określającej kod błędu. |
-| F10 | Wyświetlenie liczby wyników. | Znajdowanie się na stronie z wyszukiwarką oraz wyszukanie kursu/wybranie kategorii języku programowania. | Użytkownik wpisuje słowo-klucz w wyszukiwarkę lub wybiera jedną z kategorii języka programowania. | Użytkownikowi ukazuje się komunikat „Liczba wyników” z adekwatną liczbą wyszukanych ofert. |
+| 5 | Requests | Simplifying HTTP requests | 2.25.0 (11.11.2020) |
+| 6 | Matplotlib | Rankings' charts | 3.1.3 (02.02.2020) |
+| 7 | HTML5 | Structures of views | 1.4938 (01.11.2016) |
+| 8 | CSS3 | Appearance of view | v. 3 (07.06.2011)|
+| 9 | Bootstrap | Appearance of view | 4.4.1 (28.11.2019) |
+| 10 | visual-paradigm.com | UML diagrams | (2020) |
+| 11 | Git | Version control system | 2.31.1 (26 marca 2021) |
