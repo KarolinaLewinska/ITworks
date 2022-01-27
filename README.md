@@ -1,14 +1,14 @@
 # ITWorks
 
 ## Table of Contents
-1. [Short Description](#1-short-description)
+1. [Short Description](#short-description)
 2. [Interfaces](#2-interfaces)
 3. [Authors](#3-authors)
 4. [Requirements Specifications](#4-requirements-specifications)
 5. [UML Diagrams](#5-uml-diagrams)
 6. [Software Architecture](#6-software-architecture)
 
-### 1. Short Description
+### Short Description
 ITworks – search for courses and develop your IT skills.<br> 
 
 ### 2. Interfaces
