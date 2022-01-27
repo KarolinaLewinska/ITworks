@@ -1,14 +1,13 @@
-# INŻYNIERIA OPROGRAMOWANIA
-## ITWORKS - DOKUMENTACJA
+# ItWorks
 
-## Spis treści:
-1. [Charakterystyka oprogramowania](#1-charakterystyka-oprogramowania)
-2. [Interfejsy](#2-interfejsy)
-3. [Prawa autorskie](#3-prawa-autorskie)
-4. [Specyfikacja wymagań](#4-specyfikacja-wymagań)
-5. [Projekt (język UML)](#5-projekt-język-uml)
-6. [Architektura systemu / oprogramowania](#6-architektura-systemu--oprogramowania)
-7. [Testy](#7-testy)
+## Table of Contents:
+1. [Short description](#1-short-description)
+2. [Interfaces](#2-interfejsy)
+3. [Copyrights](#3-prawa-autorskie)
+4. [Requirements Specifications](#4-specyfikacja-wymagań)
+5. [UML Diagrams](#5-projekt-język-uml)
+6. [Software Architecture](#6-architektura-systemu--oprogramowania)
+7. [Tests](#7-testy)
 
 ### 1. Charakterystyka oprogramowania
 **Nazwa skrócona:** ITworks, <br> 
