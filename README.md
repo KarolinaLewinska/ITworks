@@ -2,30 +2,30 @@
 
 ## Table of Contents:
 1. [Short Description](#1-short-description)
-2. [Interfaces](#2-interfejsy)
-3. [Copyrights](#3-prawa-autorskie)
-4. [Requirements Specifications](#4-specyfikacja-wymagań)
-5. [UML Diagrams](#5-projekt-język-uml)
-6. [Software Architecture](#6-architektura-systemu--oprogramowania)
-7. [Tests](#7-testy)
+2. [Interfaces](#2-interfaces)
+3. [Copyrights](#3-copyrights)
+4. [Requirements Specifications](#4-requirements-specifications)
+5. [UML Diagrams](#5-uml-diagrams)
+6. [Software Architecture](#6-software-architecture)
+7. [Tests](#7-tests)
 
 ### 1. Short Description
 **Nazwa skrócona:** ITworks, <br> 
 **Nazwa pełna:** ITworks – search courses and develop your IT skills, <br> 
 **Krótki opis:** Portal pozwalający na wyszukiwanie ofert szkoleniowych w zakresie technologii informacyjnej.
 
-### 2. Interfejsy
+### 2. Interfaces
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/ranking.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/browser.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/results.PNG)<br/>
 ![](https://github.com/KarolinaLewinska/ITworks/blob/main/ReadmeIMG/error404.PNG)<br/>
 
-### 3. Prawa autorskie 
+### 3. Copyrights
 
 **Autorzy:** [Karolina Lewińska](https://github.com/KarolinaLewinska), [Justyna Gapys](https://github.com/justynagapys), [Marcin Wiśniewski](https://github.com/marcinwisniewski98), <br> 
 **Licencja:** Uznanie autorstwa - użycie niekomercyjne 4.0.
 
-### 4. Specyfikacja wymagań
+### 4. Requirements Specifications
 
 | ID | Kategoria     | Podkategoria                 | Nazwa krótka              | Opis                                                               | Priorytet |
 | -- | ------------- | ---------------------------- | ------------------------- | ------------------------------------------------------------------ | --------- |
@@ -61,7 +61,7 @@
 | NF20 | niefunkcjonalne | Wydajność | Liczba użytkowników na stronie | Maksymalna liczba użytkowników jednocześnie korzystających z aplikacji wynosi 500 osób. | 3 |
 | NF21 | niefunkcjonalne | UI | Responsywność | Aplikacja jest w pełni responsywna, aby użytkownik mógł z niej korzystać również na urządzeniu mobilnym. | 3 |
 
-### 5. Projekt (język UML)
+### 5. UML diagrams
 
 **Diagram przypadków użycia**
 ![UseCaseDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.PNG)
@@ -72,7 +72,7 @@
 **Diagram aktywności**
 ![ActivityDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20aktywno%C5%9Bci.PNG)
 
-### 6. Architektura systemu / oprogramowania
+### 6. Software Architecture
 
 **Portale, z których pochodzą kursy:** alx.pl, cts.com.pl, itschool.pl, luxoft-training.pl, videopoint.pl.
 
@@ -99,7 +99,7 @@
 | 4 | GitHub | Udostępnianie repozytorium projektowego pomiędzy twórcami | - |
 | 5 | Git | System kontroli wersji tworzonej aplikacji | 2.31.1 (26 marca 2021) |
 
-### 7. Testy
+### 7. Tests
 
 | Funkcjonalność | Cel testu | Warunki wstępne | Akcja | Oczekiwana wartość |
 | -------------- | --------- | --------------- | ----- | ------------------ |
