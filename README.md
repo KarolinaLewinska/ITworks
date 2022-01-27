@@ -58,14 +58,11 @@
 
 ### 5. UML diagrams
 
-**Diagram przypadków użycia**
-![UseCaseDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20przypadk%C3%B3w%20u%C5%BCycia.PNG)
+**Use Case Diagram**
+![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)
 
-**Diagram wdrożenia**
-![DeploymentDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20wdro%C5%BCenia.png)
-
-**Diagram aktywności**
-![ActivityDiagram](https://github.com/justynagapys/ITworks/blob/main/UML/Diagram%20aktywno%C5%9Bci.PNG)
+**Activity Diagram**
+![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)
 
 ### 6. Software Architecture
 
