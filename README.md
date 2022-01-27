@@ -64,7 +64,12 @@ ITworks – search for courses and develop your IT skills.<br>
 ![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
 ### 6. Software Architecture
-**Webistes from where were taken courses offers:** [alx.pl](https://www.alx.pl/), [cts.com.pl](https://cts.com.pl/), [itschool.pl](https://itschool.pl/), [luxoft-training.pl](https://www.luxoft-training.pl/), [videopoint.pl](https://videopoint.pl/). <br/>
+**Webistes from where were taken courses offers**<br/>
+[alx.pl](https://www.alx.pl/)<br/>
+[cts.com.pl](https://cts.com.pl/)<br/>
+[itschool.pl](https://itschool.pl/)<br/>
+[luxoft-training.pl](https://www.luxoft-training.pl/)<br/>
+[videopoint.pl](https://videopoint.pl/)<br/>
 
 |     | Name           | Usage                     | Version |
 | --- | -------------- | ------------------------- | ------  |
