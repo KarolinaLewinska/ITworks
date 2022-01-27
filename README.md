@@ -34,7 +34,7 @@ ITworks – search for courses and develop your IT skills.<br>
 | F6 | Functional | Searching Results | No Results | System allows to display text information when there is no available results. | medium |
 | F7 | Functional | Searching Results | Searching by category | System allows to find courses by clicking one of the buttons with the names of categories (Java, JavaScript, HTML5, PHP, Python, C++, C#, C, SQL) | medium |
 | F8 | Functional | Searching Results | Message to authors | System allows to write an email message to the authors. | low |
-| F9 | Functional  | Error Handling | Displaying error page | System allows to display error page for status: 400, 404 and 500. | low |
+| F9 | Functional  | Error Handling | Displaying error page | System allows to display error page for status: 400, 404 and 500. | medium |
 | F10 | Functional  | Searching Results | Displaying searching offers | System allows to display offers which an user searched. | high |
 | NF1 | Non-functional | Project | Type of application | ITWorks is a web application. | high |
 | NF2 | Non-functional | Project | Technology | It is used freely available technology. | high |
