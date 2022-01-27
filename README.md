@@ -1,6 +1,6 @@
 # ITWorks
 
-## Table of Contents:
+## Table of Contents
 1. [Short Description](#1-short-description)
 2. [Interfaces](#2-interfaces)
 3. [Authors](#3-authors)
@@ -26,7 +26,7 @@
 
 | ID | Category      | Subcategory                 | Short name              | Description                                                               | Priority |
 | -- | --------------- | ------------------------ | ------------------------- | ------------------------------------------------------------------ | --------- |
-| F1 | functional | Strona główna | Rankingi | Użytkownik po wejściu na stronę główną widzi rankingi dotyczące liczby dostępnych kursów o najpopularniejszej tematyce oraz odnoszące się do najpopularniejszych języków programowania. | 1 |
+| F1 | functional | Main Page | Displaying Ranking | System allows displaying rankings with number of available courses by the popularity of programming language and subjects.| high |
 | F2 | functional | Nawigacja | Przejście do wyszukiwarki | Użytkownik może poprzez kliknięcie przycisku “Wyszukiwarka” w menu nawigacyjnym przejść na podstronę z wyszukiwarką kursów. | 1 |
 | F3 | functional | Dostosowywanie wyników stron | Wyszukiwanie | Użytkownik po wpisaniu w pole tekstowe interesującej go frazy otrzyma listę wyników z ofertami szkoleń domyślnie posortowanymi alfabetycznie. | 1 |
 | F4 | functional | Nawigacja | Przekierowanie | Użytkownik po wybraniu interesującego go szkolenia może przejść na stronę danej oferty poprzez kliknięcie w link. | 1 |
