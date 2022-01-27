@@ -58,9 +58,9 @@ ITworks – search for courses and develop your IT skills.<br>
 | NF20 | Non-functional | Ergonomy | Updating database | Application has one script, which lets update the database contents. | medium |
 
 ## UML diagrams
-**Use Case Diagram**<br/>
+### Use Case Diagram
 ![UseCaseDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/use-case.PNG)<br/>
-**Activity Diagram**<br/>
+### Activity Diagram
 ![ActivityDiagram](https://github.com/KarolinaLewinska/ITworks_Flask/blob/main/uml/activity-diagram.PNG)<br/>
 
 ## Software Architecture
