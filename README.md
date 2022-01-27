@@ -37,7 +37,7 @@ ITworks – search for courses and develop your IT skills.<br>
 | F9 | Functional  | Error Handling | Displaying error page | System allows to display error page for status: 400, 404 and 500. | medium |
 | F10 | Functional  | Searching Results | Displaying searching offers | System allows to display offers which an user searched. | high |
 | NF1 | Non-functional | Project | Type of application | ITWorks is a web application. | high |
-| NF2 | Non-functional | Project | Technology | It is used freely available technology. | high |
+| NF2 | Non-functional | Project | Technology | In project is used freely available technology. | high |
 | NF3 | Non-functional | Project | Supported browsers | Application supports Google Chrome, Internet Explorer, Safari, Opera and Mozilla Firefox browsers. | high |
 | NF4 | Non-functional | Project | Access to the Internet | Application must be always under Internet connection. | high |
 | NF5 | Non-functional | Security | Testing | Application must be tested before release. | high |
